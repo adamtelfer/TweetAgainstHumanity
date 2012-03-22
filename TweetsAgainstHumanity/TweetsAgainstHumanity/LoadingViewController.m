@@ -10,6 +10,7 @@
 #import "LoadingViewController.h"
 #import "MainViewController.h"
 #import "AppDelegate.h"
+#import "TwitterCache.h"
 
 @implementation LoadingViewController
 
@@ -44,14 +45,21 @@
 - (void) _loadingGame
 {
     [GameParameters sharedParameters];
+    [TwitterCache sharedCache];
     [self performSelectorOnMainThread:@selector(_finishGame) withObject:nil waitUntilDone:NO];
 }
 
 - (void) _finishGame
 {
-    [[AppDelegate sharedDelegate] changeToViewController:
-     [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil]
-    ];
+    if (![[TwitterCache sharedCache] isLoggedIn]) {
+        UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Twitter Required" message:@"This game doesn't work without twitter" delegate:nil cancelButtonTitle:@"Shiiiiit.." otherButtonTitles:nil];
+        
+        [alertView show];
+    } else {
+        [[AppDelegate sharedDelegate] changeToViewController:
+        [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil]
+     ];
+    }
 }
 
 - (void)viewDidUnload

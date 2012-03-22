@@ -28,6 +28,8 @@
 		930F57C9151BD8A200D3594C /* GameParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F57C8151BD8A200D3594C /* GameParameters.m */; };
 		930F57CD151BDBBF00D3594C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F57CB151BDBBF00D3594C /* MainViewController.m */; };
 		930F57CE151BDBBF00D3594C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930F57CC151BDBBF00D3594C /* MainViewController.xib */; };
+		930F57D2151BDDD900D3594C /* TwitterCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F57D1151BDDD900D3594C /* TwitterCache.m */; };
+		930F57D4151BDF5300D3594C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F57D3151BDF5300D3594C /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,9 @@
 		930F57CA151BDBBF00D3594C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		930F57CB151BDBBF00D3594C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		930F57CC151BDBBF00D3594C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		930F57D0151BDDD900D3594C /* TwitterCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterCache.h; sourceTree = "<group>"; };
+		930F57D1151BDDD900D3594C /* TwitterCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterCache.m; sourceTree = "<group>"; };
+		930F57D3151BDF5300D3594C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930F57D4151BDF5300D3594C /* Twitter.framework in Frameworks */,
 				930F577C151BD35900D3594C /* UIKit.framework in Frameworks */,
 				930F577E151BD35900D3594C /* Foundation.framework in Frameworks */,
 				930F5780151BD35900D3594C /* CoreGraphics.framework in Frameworks */,
@@ -120,6 +126,7 @@
 		930F577A151BD35900D3594C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				930F57D3151BDF5300D3594C /* Twitter.framework */,
 				930F577B151BD35900D3594C /* UIKit.framework */,
 				930F577D151BD35900D3594C /* Foundation.framework */,
 				930F577F151BD35900D3594C /* CoreGraphics.framework */,
@@ -131,6 +138,7 @@
 		930F5781151BD35900D3594C /* TweetsAgainstHumanity */ = {
 			isa = PBXGroup;
 			children = (
+				930F57CF151BDDBD00D3594C /* Models */,
 				930F57C5151BD69500D3594C /* Assets */,
 				930F57C0151BD68E00D3594C /* Design */,
 				930F57B6151BD48000D3594C /* View Controllers */,
@@ -189,11 +197,21 @@
 			children = (
 				930F57C1151BD68E00D3594C /* categories.plist */,
 				930F57C2151BD68E00D3594C /* responses.plist */,
-				930F57C7151BD8A200D3594C /* GameParameters.h */,
-				930F57C8151BD8A200D3594C /* GameParameters.m */,
 			);
 			path = Design;
 			sourceTree = SOURCE_ROOT;
+		};
+		930F57CF151BDDBD00D3594C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				930F57C7151BD8A200D3594C /* GameParameters.h */,
+				930F57C8151BD8A200D3594C /* GameParameters.m */,
+				930F57D0151BDDD900D3594C /* TwitterCache.h */,
+				930F57D1151BDDD900D3594C /* TwitterCache.m */,
+			);
+			name = Models;
+			path = ../Design;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -312,6 +330,7 @@
 				930F57BE151BD52800D3594C /* LoadingViewController.m in Sources */,
 				930F57C9151BD8A200D3594C /* GameParameters.m in Sources */,
 				930F57CD151BDBBF00D3594C /* MainViewController.m in Sources */,
+				930F57D2151BDDD900D3594C /* TwitterCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
