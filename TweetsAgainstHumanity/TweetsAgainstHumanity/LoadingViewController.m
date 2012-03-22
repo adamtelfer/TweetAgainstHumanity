@@ -6,7 +6,9 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+#import "GameParameters.h"
 #import "LoadingViewController.h"
+#import "AppDelegate.h"
 
 @implementation LoadingViewController
 
@@ -33,6 +35,20 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    [self performSelectorInBackground:@selector(_loadingGame) withObject:nil];
+    
+}
+
+- (void) _loadingGame
+{
+    [GameParameters sharedParameters];
+    [self performSelectorOnMainThread:@selector(_finishGame) withObject:nil waitUntilDone:NO];
+}
+
+- (void) _finishGame
+{
+    [self.view removeFromSuperview];
 }
 
 - (void)viewDidUnload

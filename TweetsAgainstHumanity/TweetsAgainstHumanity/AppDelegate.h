@@ -10,6 +10,8 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
++ (AppDelegate*) sharedDelegate;
+
 @property (strong, nonatomic) UIWindow *window;
 
 @end

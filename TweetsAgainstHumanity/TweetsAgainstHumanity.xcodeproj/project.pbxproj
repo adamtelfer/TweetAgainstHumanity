@@ -18,13 +18,14 @@
 		930F5796151BD35A00D3594C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577D151BD35900D3594C /* Foundation.framework */; };
 		930F579E151BD35A00D3594C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 930F579C151BD35A00D3594C /* InfoPlist.strings */; };
 		930F57A1151BD35A00D3594C /* TweetsAgainstHumanityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F57A0151BD35A00D3594C /* TweetsAgainstHumanityTests.m */; };
-		930F57AF151BD44200D3594C /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 930F57AE151BD44200D3594C /* Assets */; };
-		930F57B3151BD45100D3594C /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930F57B1151BD45100D3594C /* categories.plist */; };
-		930F57B4151BD45100D3594C /* responses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930F57B2151BD45100D3594C /* responses.plist */; };
 		930F57B8151BD4AC00D3594C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 930F57B7151BD4AC00D3594C /* Default.png */; };
 		930F57BA151BD4AE00D3594C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 930F57B9151BD4AE00D3594C /* Default@2x.png */; };
 		930F57BE151BD52800D3594C /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F57BC151BD52800D3594C /* LoadingViewController.m */; };
 		930F57BF151BD52800D3594C /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930F57BD151BD52800D3594C /* LoadingViewController.xib */; };
+		930F57C3151BD68E00D3594C /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930F57C1151BD68E00D3594C /* categories.plist */; };
+		930F57C4151BD68E00D3594C /* responses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930F57C2151BD68E00D3594C /* responses.plist */; };
+		930F57C6151BD69500D3594C /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 930F57C5151BD69500D3594C /* Assets */; };
+		930F57C9151BD8A200D3594C /* GameParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F57C8151BD8A200D3594C /* GameParameters.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,14 +55,16 @@
 		930F579D151BD35A00D3594C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		930F579F151BD35A00D3594C /* TweetsAgainstHumanityTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetsAgainstHumanityTests.h; sourceTree = "<group>"; };
 		930F57A0151BD35A00D3594C /* TweetsAgainstHumanityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetsAgainstHumanityTests.m; sourceTree = "<group>"; };
-		930F57AE151BD44200D3594C /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = ../../tweetagainst/Assets; sourceTree = "<group>"; };
-		930F57B1151BD45100D3594C /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = categories.plist; path = ../../tweetagainst/tweetagainst/categories.plist; sourceTree = "<group>"; };
-		930F57B2151BD45100D3594C /* responses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = responses.plist; path = ../../tweetagainst/tweetagainst/responses.plist; sourceTree = "<group>"; };
 		930F57B7151BD4AC00D3594C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		930F57B9151BD4AE00D3594C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		930F57BB151BD52800D3594C /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
 		930F57BC151BD52800D3594C /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
 		930F57BD151BD52800D3594C /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		930F57C1151BD68E00D3594C /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		930F57C2151BD68E00D3594C /* responses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = responses.plist; sourceTree = "<group>"; };
+		930F57C5151BD69500D3594C /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = ../Assets; sourceTree = "<group>"; };
+		930F57C7151BD8A200D3594C /* GameParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameParameters.h; sourceTree = "<group>"; };
+		930F57C8151BD8A200D3594C /* GameParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameParameters.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,9 +126,9 @@
 		930F5781151BD35900D3594C /* TweetsAgainstHumanity */ = {
 			isa = PBXGroup;
 			children = (
+				930F57C5151BD69500D3594C /* Assets */,
+				930F57C0151BD68E00D3594C /* Design */,
 				930F57B6151BD48000D3594C /* View Controllers */,
-				930F57B5151BD45600D3594C /* Design */,
-				930F57AE151BD44200D3594C /* Assets */,
 				930F578A151BD35900D3594C /* AppDelegate.h */,
 				930F578B151BD35900D3594C /* AppDelegate.m */,
 				930F5782151BD35900D3594C /* Supporting Files */,
@@ -163,15 +166,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		930F57B5151BD45600D3594C /* Design */ = {
-			isa = PBXGroup;
-			children = (
-				930F57B2151BD45100D3594C /* responses.plist */,
-				930F57B1151BD45100D3594C /* categories.plist */,
-			);
-			name = Design;
-			sourceTree = "<group>";
-		};
 		930F57B6151BD48000D3594C /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +175,17 @@
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
+		};
+		930F57C0151BD68E00D3594C /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				930F57C1151BD68E00D3594C /* categories.plist */,
+				930F57C2151BD68E00D3594C /* responses.plist */,
+				930F57C7151BD8A200D3594C /* GameParameters.h */,
+				930F57C8151BD8A200D3594C /* GameParameters.m */,
+			);
+			path = Design;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -253,12 +258,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				930F5786151BD35900D3594C /* InfoPlist.strings in Resources */,
-				930F57AF151BD44200D3594C /* Assets in Resources */,
-				930F57B3151BD45100D3594C /* categories.plist in Resources */,
-				930F57B4151BD45100D3594C /* responses.plist in Resources */,
 				930F57B8151BD4AC00D3594C /* Default.png in Resources */,
 				930F57BA151BD4AE00D3594C /* Default@2x.png in Resources */,
 				930F57BF151BD52800D3594C /* LoadingViewController.xib in Resources */,
+				930F57C3151BD68E00D3594C /* categories.plist in Resources */,
+				930F57C4151BD68E00D3594C /* responses.plist in Resources */,
+				930F57C6151BD69500D3594C /* Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +301,7 @@
 				930F5788151BD35900D3594C /* main.m in Sources */,
 				930F578C151BD35900D3594C /* AppDelegate.m in Sources */,
 				930F57BE151BD52800D3594C /* LoadingViewController.m in Sources */,
+				930F57C9151BD8A200D3594C /* GameParameters.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

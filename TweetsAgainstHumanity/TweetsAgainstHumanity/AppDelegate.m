@@ -13,10 +13,19 @@
 
 @synthesize window = _window;
 
+static AppDelegate* _delegate;
+
++ (AppDelegate*) sharedDelegate {
+    return _delegate;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    _delegate = self;
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    [application setStatusBarHidden:YES animated:NO];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window addSubview:
         [[LoadingViewController alloc] initWithNibName:@"LoadingViewController" bundle:nil].view
