@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LoadingViewController.h
 //  tweetagainst
 //
 //  Created by Adam Telfer on 12-03-22.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface LoadingViewController : UIViewController
 
 @end

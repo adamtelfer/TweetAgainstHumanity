@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930F577C151BD35900D3594C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577B151BD35900D3594C /* UIKit.framework */; };
+		930F577E151BD35900D3594C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577D151BD35900D3594C /* Foundation.framework */; };
+		930F5780151BD35900D3594C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577F151BD35900D3594C /* CoreGraphics.framework */; };
+		930F5786151BD35900D3594C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 930F5784151BD35900D3594C /* InfoPlist.strings */; };
+		930F5788151BD35900D3594C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F5787151BD35900D3594C /* main.m */; };
+		930F578C151BD35900D3594C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F578B151BD35900D3594C /* AppDelegate.m */; };
+		930F5794151BD35A00D3594C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F5793151BD35A00D3594C /* SenTestingKit.framework */; };
+		930F5795151BD35A00D3594C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577B151BD35900D3594C /* UIKit.framework */; };
+		930F5796151BD35A00D3594C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577D151BD35900D3594C /* Foundation.framework */; };
+		930F579E151BD35A00D3594C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 930F579C151BD35A00D3594C /* InfoPlist.strings */; };
+		930F57A1151BD35A00D3594C /* TweetsAgainstHumanityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F57A0151BD35A00D3594C /* TweetsAgainstHumanityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		930F5797151BD35A00D3594C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 930F576E151BD35900D3594C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 930F5776151BD35900D3594C;
+			remoteInfo = TweetsAgainstHumanity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930F5777151BD35900D3594C /* TweetsAgainstHumanity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetsAgainstHumanity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		930F577B151BD35900D3594C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		930F577D151BD35900D3594C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		930F577F151BD35900D3594C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		930F5783151BD35900D3594C /* TweetsAgainstHumanity-Info.plist */ = {isa = PBXFileReference; path = "TweetsAgainstHumanity-Info.plist"; sourceTree = "<group>"; };
+		930F5785151BD35900D3594C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		930F5787151BD35900D3594C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		930F5789151BD35900D3594C /* TweetsAgainstHumanity-Prefix.pch */ = {isa = PBXFileReference; path = "TweetsAgainstHumanity-Prefix.pch"; sourceTree = "<group>"; };
+		930F578A151BD35900D3594C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		930F578B151BD35900D3594C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		930F5792151BD35A00D3594C /* TweetsAgainstHumanityTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweetsAgainstHumanityTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		930F5793151BD35A00D3594C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		930F579B151BD35A00D3594C /* TweetsAgainstHumanityTests-Info.plist */ = {isa = PBXFileReference; path = "TweetsAgainstHumanityTests-Info.plist"; sourceTree = "<group>"; };
+		930F579D151BD35A00D3594C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		930F579F151BD35A00D3594C /* TweetsAgainstHumanityTests.h */ = {isa = PBXFileReference; path = TweetsAgainstHumanityTests.h; sourceTree = "<group>"; };
+		930F57A0151BD35A00D3594C /* TweetsAgainstHumanityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetsAgainstHumanityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		930F5774151BD35900D3594C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930F577C151BD35900D3594C /* UIKit.framework in Frameworks */,
+				930F577E151BD35900D3594C /* Foundation.framework in Frameworks */,
+				930F5780151BD35900D3594C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930F578E151BD35A00D3594C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930F5794151BD35A00D3594C /* SenTestingKit.framework in Frameworks */,
+				930F5795151BD35A00D3594C /* UIKit.framework in Frameworks */,
+				930F5796151BD35A00D3594C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930F576C151BD35900D3594C = {
+			isa = PBXGroup;
+			children = (
+				930F5781151BD35900D3594C /* TweetsAgainstHumanity */,
+				930F5799151BD35A00D3594C /* TweetsAgainstHumanityTests */,
+				930F577A151BD35900D3594C /* Frameworks */,
+				930F5778151BD35900D3594C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		930F5778151BD35900D3594C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				930F5777151BD35900D3594C /* TweetsAgainstHumanity.app */,
+				930F5792151BD35A00D3594C /* TweetsAgainstHumanityTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		930F577A151BD35900D3594C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				930F577B151BD35900D3594C /* UIKit.framework */,
+				930F577D151BD35900D3594C /* Foundation.framework */,
+				930F577F151BD35900D3594C /* CoreGraphics.framework */,
+				930F5793151BD35A00D3594C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		930F5781151BD35900D3594C /* TweetsAgainstHumanity */ = {
+			isa = PBXGroup;
+			children = (
+				930F578A151BD35900D3594C /* AppDelegate.h */,
+				930F578B151BD35900D3594C /* AppDelegate.m */,
+				930F5782151BD35900D3594C /* Supporting Files */,
+			);
+			path = TweetsAgainstHumanity;
+			sourceTree = "<group>";
+		};
+		930F5782151BD35900D3594C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				930F5783151BD35900D3594C /* TweetsAgainstHumanity-Info.plist */,
+				930F5784151BD35900D3594C /* InfoPlist.strings */,
+				930F5787151BD35900D3594C /* main.m */,
+				930F5789151BD35900D3594C /* TweetsAgainstHumanity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		930F5799151BD35A00D3594C /* TweetsAgainstHumanityTests */ = {
+			isa = PBXGroup;
+			children = (
+				930F579F151BD35A00D3594C /* TweetsAgainstHumanityTests.h */,
+				930F57A0151BD35A00D3594C /* TweetsAgainstHumanityTests.m */,
+				930F579A151BD35A00D3594C /* Supporting Files */,
+			);
+			path = TweetsAgainstHumanityTests;
+			sourceTree = "<group>";
+		};
+		930F579A151BD35A00D3594C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				930F579B151BD35A00D3594C /* TweetsAgainstHumanityTests-Info.plist */,
+				930F579C151BD35A00D3594C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		930F5776151BD35900D3594C /* TweetsAgainstHumanity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930F57A4151BD35A00D3594C /* Build configuration list for PBXNativeTarget "TweetsAgainstHumanity" */;
+			buildPhases = (
+				930F5773151BD35900D3594C /* Sources */,
+				930F5774151BD35900D3594C /* Frameworks */,
+				930F5775151BD35900D3594C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweetsAgainstHumanity;
+			productName = TweetsAgainstHumanity;
+			productReference = 930F5777151BD35900D3594C /* TweetsAgainstHumanity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		930F5791151BD35A00D3594C /* TweetsAgainstHumanityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930F57A7151BD35A00D3594C /* Build configuration list for PBXNativeTarget "TweetsAgainstHumanityTests" */;
+			buildPhases = (
+				930F578D151BD35A00D3594C /* Sources */,
+				930F578E151BD35A00D3594C /* Frameworks */,
+				930F578F151BD35A00D3594C /* Resources */,
+				930F5790151BD35A00D3594C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				930F5798151BD35A00D3594C /* PBXTargetDependency */,
+			);
+			name = TweetsAgainstHumanityTests;
+			productName = TweetsAgainstHumanityTests;
+			productReference = 930F5792151BD35A00D3594C /* TweetsAgainstHumanityTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		930F576E151BD35900D3594C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 930F5771151BD35900D3594C /* Build configuration list for PBXProject "TweetsAgainstHumanity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 930F576C151BD35900D3594C;
+			productRefGroup = 930F5778151BD35900D3594C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				930F5776151BD35900D3594C /* TweetsAgainstHumanity */,
+				930F5791151BD35A00D3594C /* TweetsAgainstHumanityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		930F5775151BD35900D3594C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930F5786151BD35900D3594C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930F578F151BD35A00D3594C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930F579E151BD35A00D3594C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		930F5790151BD35A00D3594C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		930F5773151BD35900D3594C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930F5788151BD35900D3594C /* main.m in Sources */,
+				930F578C151BD35900D3594C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930F578D151BD35A00D3594C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930F57A1151BD35A00D3594C /* TweetsAgainstHumanityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		930F5798151BD35A00D3594C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 930F5776151BD35900D3594C /* TweetsAgainstHumanity */;
+			targetProxy = 930F5797151BD35A00D3594C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		930F5784151BD35900D3594C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930F5785151BD35900D3594C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		930F579C151BD35A00D3594C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930F579D151BD35A00D3594C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		930F57A2151BD35A00D3594C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		930F57A3151BD35A00D3594C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		930F57A5151BD35A00D3594C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch";
+				INFOPLIST_FILE = "TweetsAgainstHumanity/TweetsAgainstHumanity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		930F57A6151BD35A00D3594C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch";
+				INFOPLIST_FILE = "TweetsAgainstHumanity/TweetsAgainstHumanity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		930F57A8151BD35A00D3594C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TweetsAgainstHumanity.app/TweetsAgainstHumanity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch";
+				INFOPLIST_FILE = "TweetsAgainstHumanityTests/TweetsAgainstHumanityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		930F57A9151BD35A00D3594C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TweetsAgainstHumanity.app/TweetsAgainstHumanity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch";
+				INFOPLIST_FILE = "TweetsAgainstHumanityTests/TweetsAgainstHumanityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		930F5771151BD35900D3594C /* Build configuration list for PBXProject "TweetsAgainstHumanity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930F57A2151BD35A00D3594C /* Debug */,
+				930F57A3151BD35A00D3594C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		930F57A4151BD35A00D3594C /* Build configuration list for PBXNativeTarget "TweetsAgainstHumanity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930F57A5151BD35A00D3594C /* Debug */,
+				930F57A6151BD35A00D3594C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		930F57A7151BD35A00D3594C /* Build configuration list for PBXNativeTarget "TweetsAgainstHumanityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930F57A8151BD35A00D3594C /* Debug */,
+				930F57A9151BD35A00D3594C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 930F576E151BD35900D3594C /* Project object */;
+}

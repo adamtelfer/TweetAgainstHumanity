@@ -1,18 +1,29 @@
 //
-//  ViewController.m
-//  tweetagainst
+//  LoadingViewController.m
+//  TweetsAgainstHumanity
 //
 //  Created by Adam Telfer on 12-03-22.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LoadingViewController.h"
 
-@implementation ViewController
+@implementation LoadingViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
 
 - (void)didReceiveMemoryWarning
 {
+    // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
+    
     // Release any cached data, images, etc that aren't in use.
 }
 
@@ -21,7 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)viewDidUnload
@@ -29,26 +40,6 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
