@@ -22,6 +22,8 @@
 		930F5746151BC66000D3594C /* tweetagainstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F5745151BC66000D3594C /* tweetagainstTests.m */; };
 		930F5755151BCB3F00D3594C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F5754151BCB3F00D3594C /* Twitter.framework */; };
 		930F5757151BCD2500D3594C /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 930F5756151BCD2500D3594C /* Assets */; };
+		930F575A151BCEFC00D3594C /* responses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930F5759151BCEFC00D3594C /* responses.plist */; };
+		930F575C151BCFC000D3594C /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930F575B151BCFC000D3594C /* categories.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		930F5745151BC66000D3594C /* tweetagainstTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tweetagainstTests.m; sourceTree = "<group>"; };
 		930F5754151BCB3F00D3594C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		930F5756151BCD2500D3594C /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = SOURCE_ROOT; };
+		930F5759151BCEFC00D3594C /* responses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = responses.plist; sourceTree = "<group>"; };
+		930F575B151BCFC000D3594C /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		930F5720151BC66000D3594C /* tweetagainst */ = {
 			isa = PBXGroup;
 			children = (
+				930F5758151BCE8900D3594C /* Design */,
 				930F5756151BCD2500D3594C /* Assets */,
 				930F5729151BC66000D3594C /* AppDelegate.h */,
 				930F572A151BC66000D3594C /* AppDelegate.m */,
@@ -156,6 +161,15 @@
 				930F5741151BC66000D3594C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		930F5758151BCE8900D3594C /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				930F5759151BCEFC00D3594C /* responses.plist */,
+				930F575B151BCFC000D3594C /* categories.plist */,
+			);
+			name = Design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,8 @@
 				930F5725151BC66000D3594C /* InfoPlist.strings in Resources */,
 				930F572E151BC66000D3594C /* MainStoryboard.storyboard in Resources */,
 				930F5757151BCD2500D3594C /* Assets in Resources */,
+				930F575A151BCEFC00D3594C /* responses.plist in Resources */,
+				930F575C151BCFC000D3594C /* categories.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
