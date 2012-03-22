@@ -30,6 +30,7 @@
 		930F57CE151BDBBF00D3594C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930F57CC151BDBBF00D3594C /* MainViewController.xib */; };
 		930F57D2151BDDD900D3594C /* TwitterCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F57D1151BDDD900D3594C /* TwitterCache.m */; };
 		930F57D4151BDF5300D3594C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F57D3151BDF5300D3594C /* Twitter.framework */; };
+		930F58C7151BEB6A00D3594C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F58C6151BEB6A00D3594C /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		930F57D0151BDDD900D3594C /* TwitterCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterCache.h; sourceTree = "<group>"; };
 		930F57D1151BDDD900D3594C /* TwitterCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterCache.m; sourceTree = "<group>"; };
 		930F57D3151BDF5300D3594C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		930F58C6151BEB6A00D3594C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930F58C7151BEB6A00D3594C /* libxml2.dylib in Frameworks */,
 				930F57D4151BDF5300D3594C /* Twitter.framework in Frameworks */,
 				930F577C151BD35900D3594C /* UIKit.framework in Frameworks */,
 				930F577E151BD35900D3594C /* Foundation.framework in Frameworks */,
@@ -105,6 +108,7 @@
 		930F576C151BD35900D3594C = {
 			isa = PBXGroup;
 			children = (
+				930F58C6151BEB6A00D3594C /* libxml2.dylib */,
 				930F57B9151BD4AE00D3594C /* Default@2x.png */,
 				930F57B7151BD4AC00D3594C /* Default.png */,
 				930F5781151BD35900D3594C /* TweetsAgainstHumanity */,
@@ -422,6 +426,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$SDK_DIR/usr/include/libxml2/**";
 				INFOPLIST_FILE = "TweetsAgainstHumanity/TweetsAgainstHumanity-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -433,6 +438,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$SDK_DIR/usr/include/libxml2/**";
 				INFOPLIST_FILE = "TweetsAgainstHumanity/TweetsAgainstHumanity-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

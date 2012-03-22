@@ -52,7 +52,7 @@
 - (void) _finishGame
 {
     if (![[TwitterCache sharedCache] isLoggedIn]) {
-        UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Twitter Required" message:@"Login to Twitter in your 'Settings' App" delegate:nil cancelButtonTitle:@"Shiiiiit.." otherButtonTitles:nil];
+        UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Twitter Required" message:@"Login to Twitter in your Settings App" delegate:nil cancelButtonTitle:@"Shiiiiit.." otherButtonTitles:nil];
         
         [alertView show];
     } else {

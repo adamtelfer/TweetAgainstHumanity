@@ -8,9 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
+#define eTweetsUpdated @"eTweetsUpdated"
+
 @interface TwitterCache : NSObject
+{
+    NSArray* _tweets;
+}
+
+/*
+- (NSArray*) activeGames;
+- (NSArray*) myGames;
+- (NSArray*) finishedGames;
+*/
 
 + (TwitterCache*) sharedCache;
+
+- (void) refresh;
 
 - (BOOL) isLoggedIn;
 
