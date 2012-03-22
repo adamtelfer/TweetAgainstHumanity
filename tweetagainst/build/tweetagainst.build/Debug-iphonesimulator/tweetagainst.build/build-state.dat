@@ -1,0 +1,240 @@
+Ttweetagainst
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/Info.plist tweetagainst/tweetagainst-Info.plist
+cProcessPCH /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tweetagainst-Prefix-cmicnqohvaubpxdplzjyfhhfepey/tweetagainst-Prefix.pch.pth tweetagainst/tweetagainst-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/main.o /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/AppDelegate.o /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/ViewController.o /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/tweetagainst normal i386
+cGenerateDSYMFile /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app.dSYM /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/tweetagainst
+cCompileStoryboard /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/en.lproj/MainStoryboard.storyboard
+cCopyStringsFile /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/en.lproj/InfoPlist.strings tweetagainst/en.lproj/InfoPlist.strings
+cTouch /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004EEFAC6E0000000000000110
+t1324330094
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app
+t2
+s0
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app.dSYM
+t2
+s0
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/Info.plist
+t2
+s0
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/PkgInfo
+t2
+s0
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/tweetagainst
+t2
+s0
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/ViewController.o
+t2
+s0
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/tweetagainst.LinkFileList
+c000000004F6B8EE600000000000001B5
+t1332448998
+s437
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/AppDelegate.m
+c000000004F6B8EE00000000000000849
+t1332448992
+s2121
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/ViewController.m
+c000000004F6B8EE000000000000004AA
+t1332448992
+s1194
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/en.lproj/InfoPlist.strings
+c000000004F6B8EE0000000000000002D
+t1332448992
+s45
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/en.lproj/MainStoryboard.storyboard
+c000000004F6B8EE0000000000000061C
+t1332448992
+s1564
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/main.m
+c000000004F6B8EE0000000000000015C
+t1332448992
+s348
+
+N/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/tweetagainst-Prefix.pch
+c000000004F6B8EE00000000000000147
+t1332448992
+s327
+
+N/var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tweetagainst-Prefix-cmicnqohvaubpxdplzjyfhhfepey/tweetagainst-Prefix.pch.pth
+t2
+s0
+
+Ntweetagainst/tweetagainst-Info.plist
+c000000004F6B8EE000000000000004F8
+t1332448992
+s1272
+
+CBuild AST from /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/AppDelegate.m
+r0
+
+CBuild AST from /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/ViewController.m
+r0
+
+CBuild AST from /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies44a70b66c61bb541^693a1766c61bb541^---0#1#0#--18"Check dependencies36"85EE2B68-9563-4453-A561-AB3812B08749-
+
+CCompileC build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/AppDelegate.o /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s354141798.924165
+e354141798.998661
+r1
+xCompileC
+xbuild/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/AppDelegate.o
+x/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/AppDelegate.m8eacec66c61bb541^caa7ff66c61bb541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/AppDelegate.m0000000000000000^2884"CompileC build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/AppDelegate.o tweetagainst/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamtelfer/workspace/tweet/tweetagainst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-generated-files.hmap -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-own-target-headers.hmap -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-all-target-headers.hmap -iquote /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-project-headers.hmap -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/include -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/DerivedSources/i386 -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/DerivedSources -F/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator -include /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tweetagainst-Prefix-cmicnqohvaubpxdplzjyfhhfepey/tweetagainst-Prefix.pch -MMD -MT dependencies -MF /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/AppDelegate.d -c /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/AppDelegate.m -o /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/AppDelegate.o36"288FF1FC-8D1B-4650-962F-BDE2766420C5-
+
+CCompileC build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/ViewController.o /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s354141798.995249
+e354141799.029101
+r1
+xCompileC
+xbuild/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/ViewController.o
+x/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/ViewController.m87defe66c61bb541^21750767c61bb541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/ViewController.m0000000000000000^2899"CompileC build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/ViewController.o tweetagainst/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamtelfer/workspace/tweet/tweetagainst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-generated-files.hmap -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-own-target-headers.hmap -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-all-target-headers.hmap -iquote /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-project-headers.hmap -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/include -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/DerivedSources/i386 -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/DerivedSources -F/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator -include /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tweetagainst-Prefix-cmicnqohvaubpxdplzjyfhhfepey/tweetagainst-Prefix.pch -MMD -MT dependencies -MF /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/ViewController.d -c /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/ViewController.m -o /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/ViewController.o36"00CEECBC-4946-45C2-A9B3-984E164053DC-
+
+CCompileC build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/main.o /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s354141798.923666
+e354141798.993987
+r1
+xCompileC
+xbuild/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/main.o
+x/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/main.m448bec66c61bb541^d976fe66c61bb541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/main.m0000000000000000^2849"CompileC build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/main.o tweetagainst/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamtelfer/workspace/tweet/tweetagainst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-generated-files.hmap -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-own-target-headers.hmap -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-all-target-headers.hmap -iquote /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-project-headers.hmap -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/include -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/DerivedSources/i386 -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/DerivedSources -F/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator -include /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tweetagainst-Prefix-cmicnqohvaubpxdplzjyfhhfepey/tweetagainst-Prefix.pch -MMD -MT dependencies -MF /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/main.d -c /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/main.m -o /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/main.o36"3B545E93-D798-4323-8DC1-7178614144B3-
+
+CCompileStoryboard /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/en.lproj/MainStoryboard.storyboard
+s354141799.453247
+e354141800.150513
+r1
+xCompileStoryboard
+x/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/en.lproj/MainStoryboard.storyboard
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CompileStoryboard tweetagainst/en.lproj/MainStoryboard.storyboard3e207467c61bb541^df882668c61bb541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/en.lproj/MainStoryboard.storyboard0000000000000000^778"CompileStoryboard tweetagainst/en.lproj/MainStoryboard.storyboard    cd /Users/adamtelfer/workspace/tweet/tweetagainst    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/en.lproj/MainStoryboard.storyboardc /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/en.lproj/MainStoryboard.storyboard --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"6947D5BE-B1B6-4454-AA92-86E74DF254AA-
+
+CCopyStringsFile /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/en.lproj/InfoPlist.strings tweetagainst/en.lproj/InfoPlist.strings
+s354141799.453252
+e354141799.457442
+r1
+xCopyStringsFile
+x/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/en.lproj/InfoPlist.strings
+xtweetagainst/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy tweetagainst/en.lproj/InfoPlist.strings92207467c61bb541^eb1a7567c61bb541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/en.lproj/InfoPlist.strings0000000000000000^547"CopyStringsFile build/Debug-iphonesimulator/tweetagainst.app/en.lproj/InfoPlist.strings tweetagainst/en.lproj/InfoPlist.strings    cd /Users/adamtelfer/workspace/tweet/tweetagainst    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/en.lproj -- tweetagainst/en.lproj/InfoPlist.strings36"C70500B2-AF4A-4CD9-8187-D3ED0FF0518C-
+
+CGenerateDSYMFile /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app.dSYM /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/tweetagainst
+s354141799.419280
+e354141799.444784
+r1
+xGenerateDSYMFile
+x/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app.dSYM
+x/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/tweetagainst
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Generating /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app.dSYMcb656b67c61bb541^6edd7167c61bb541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app.dSYM00f430e5deffdf42^547"GenerateDSYMFile build/Debug-iphonesimulator/tweetagainst.app.dSYM build/Debug-iphonesimulator/tweetagainst.app/tweetagainst    cd /Users/adamtelfer/workspace/tweet/tweetagainst    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/tweetagainst -o /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app.dSYM36"0A12DF8B-759F-437E-B452-0A177D242F32-
+
+CLd /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/tweetagainst normal i386
+s354141799.035962
+e354141799.412489
+r1
+xLd
+x/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/tweetagainst
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/tweetagainstfe480967c61bb541^24996967c61bb541^---0#0#0#--1117"Ld build/Debug-iphonesimulator/tweetagainst.app/tweetagainst normal i386    cd /Users/adamtelfer/workspace/tweet/tweetagainst    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator -F/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator -filelist /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/Objects-normal/i386/tweetagainst.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/tweetagainst36"C469B7E5-9463-45CE-A8AC-7E4411902E52-
+
+CProcessInfoPlistFile /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/Info.plist tweetagainst/tweetagainst-Info.plist
+s354141798.099494
+e354141798.103567
+r1
+xProcessInfoPlistFile
+x/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/Info.plist
+xtweetagainst/tweetagainst-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process tweetagainst/tweetagainst-Info.plist0ebd1966c61bb541^59851d66c61bb541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/tweetagainst-Info.plist0000000000000000^645"ProcessInfoPlistFile build/Debug-iphonesimulator/tweetagainst.app/Info.plist tweetagainst/tweetagainst-Info.plist    cd /Users/adamtelfer/workspace/tweet/tweetagainst    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility tweetagainst/tweetagainst-Info.plist -genpkginfo /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app/Info.plist36"77B10EC0-BAAE-4197-93B7-48FD754F4F12-
+
+CProcessPCH /Users/adamtelfer/Library/Developer/Xcode/DerivedData/tweetagainst-gtkoiaownrsnmbakenvfejlsetux/Index/PrecompiledHeaders/tweetagainst-Prefix-enfwirnewniwqgfvppdztuchmipg_ast/tweetagainst-Prefix.pch.pth tweetagainst/tweetagainst-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tweetagainst-Prefix-cmicnqohvaubpxdplzjyfhhfepey/tweetagainst-Prefix.pch.pth tweetagainst/tweetagainst-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s354141798.111583
+e354141798.916743
+r1
+xProcessPCH
+x/var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tweetagainst-Prefix-cmicnqohvaubpxdplzjyfhhfepey/tweetagainst-Prefix.pch.pth
+xtweetagainst/tweetagainst-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile tweetagainst/tweetagainst-Prefix.pchcbb91c66c61bb541^79afea66c61bb541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/tweetagainst-Prefix.pch0000000000000000^2854"ProcessPCH /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tweetagainst-Prefix-cmicnqohvaubpxdplzjyfhhfepey/tweetagainst-Prefix.pch.pth tweetagainst/tweetagainst-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamtelfer/workspace/tweet/tweetagainst    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-generated-files.hmap -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-own-target-headers.hmap -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-all-target-headers.hmap -iquote /Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/tweetagainst-project-headers.hmap -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/include -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/DerivedSources/i386 -I/Users/adamtelfer/workspace/tweet/tweetagainst/build/tweetagainst.build/Debug-iphonesimulator/tweetagainst.build/DerivedSources -F/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator -c /Users/adamtelfer/workspace/tweet/tweetagainst/tweetagainst/tweetagainst-Prefix.pch -o /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tweetagainst-Prefix-cmicnqohvaubpxdplzjyfhhfepey/tweetagainst-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/tweetagainst-Prefix-cmicnqohvaubpxdplzjyfhhfepey/tweetagainst-Prefix.pch.d36"E7C1A4B9-3F79-4B7D-A5CB-0CE19290DAD3-
+
+CTouch /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app
+s354141800.158092
+e354141800.162901
+r1
+xTouch
+x/Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Touch /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app38862868c61bb541^35b42968c61bb541^---0#0#0#--350"Touch build/Debug-iphonesimulator/tweetagainst.app    cd /Users/adamtelfer/workspace/tweet/tweetagainst    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adamtelfer/workspace/tweet/tweetagainst/build/Debug-iphonesimulator/tweetagainst.app36"D1CCEBB2-2CAD-4F15-BB29-7533C0020656-
+
