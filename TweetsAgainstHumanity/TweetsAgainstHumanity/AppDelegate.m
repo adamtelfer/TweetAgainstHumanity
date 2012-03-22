@@ -27,11 +27,21 @@ static AppDelegate* _delegate;
     // Override point for customization after application launch.
     [application setStatusBarHidden:YES animated:NO];
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    rootViewController = [[LoadingViewController alloc] initWithNibName:@"LoadingViewController" bundle:nil];
+    
     [self.window addSubview:
-        [[LoadingViewController alloc] initWithNibName:@"LoadingViewController" bundle:nil].view
+        rootViewController.view
      ];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void) changeToViewController:(UIViewController *)viewController
+{
+    [rootViewController.view removeFromSuperview];
+    rootViewController = viewController;
+    [self.window addSubview:rootViewController.view];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

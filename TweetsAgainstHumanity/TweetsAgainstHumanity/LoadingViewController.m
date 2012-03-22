@@ -8,6 +8,7 @@
 
 #import "GameParameters.h"
 #import "LoadingViewController.h"
+#import "MainViewController.h"
 #import "AppDelegate.h"
 
 @implementation LoadingViewController
@@ -48,7 +49,9 @@
 
 - (void) _finishGame
 {
-    [self.view removeFromSuperview];
+    [[AppDelegate sharedDelegate] changeToViewController:
+     [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil]
+    ];
 }
 
 - (void)viewDidUnload

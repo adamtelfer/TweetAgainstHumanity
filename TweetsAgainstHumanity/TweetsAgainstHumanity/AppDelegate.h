@@ -9,9 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    UIViewController* rootViewController;
+}
+
 
 + (AppDelegate*) sharedDelegate;
 
 @property (strong, nonatomic) UIWindow *window;
+
+- (void) changeToViewController:(UIViewController*)viewController;
 
 @end

@@ -26,6 +26,8 @@
 		930F57C4151BD68E00D3594C /* responses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930F57C2151BD68E00D3594C /* responses.plist */; };
 		930F57C6151BD69500D3594C /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 930F57C5151BD69500D3594C /* Assets */; };
 		930F57C9151BD8A200D3594C /* GameParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F57C8151BD8A200D3594C /* GameParameters.m */; };
+		930F57CD151BDBBF00D3594C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F57CB151BDBBF00D3594C /* MainViewController.m */; };
+		930F57CE151BDBBF00D3594C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930F57CC151BDBBF00D3594C /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,9 @@
 		930F57C5151BD69500D3594C /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = ../Assets; sourceTree = "<group>"; };
 		930F57C7151BD8A200D3594C /* GameParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameParameters.h; sourceTree = "<group>"; };
 		930F57C8151BD8A200D3594C /* GameParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameParameters.m; sourceTree = "<group>"; };
+		930F57CA151BDBBF00D3594C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		930F57CB151BDBBF00D3594C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		930F57CC151BDBBF00D3594C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +177,9 @@
 				930F57BB151BD52800D3594C /* LoadingViewController.h */,
 				930F57BC151BD52800D3594C /* LoadingViewController.m */,
 				930F57BD151BD52800D3594C /* LoadingViewController.xib */,
+				930F57CA151BDBBF00D3594C /* MainViewController.h */,
+				930F57CB151BDBBF00D3594C /* MainViewController.m */,
+				930F57CC151BDBBF00D3594C /* MainViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -264,6 +272,7 @@
 				930F57C3151BD68E00D3594C /* categories.plist in Resources */,
 				930F57C4151BD68E00D3594C /* responses.plist in Resources */,
 				930F57C6151BD69500D3594C /* Assets in Resources */,
+				930F57CE151BDBBF00D3594C /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +311,7 @@
 				930F578C151BD35900D3594C /* AppDelegate.m in Sources */,
 				930F57BE151BD52800D3594C /* LoadingViewController.m in Sources */,
 				930F57C9151BD8A200D3594C /* GameParameters.m in Sources */,
+				930F57CD151BDBBF00D3594C /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
