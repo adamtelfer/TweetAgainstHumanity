@@ -20,6 +20,7 @@
 		930F573B151BC66000D3594C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F571C151BC66000D3594C /* Foundation.framework */; };
 		930F5743151BC66000D3594C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 930F5741151BC66000D3594C /* InfoPlist.strings */; };
 		930F5746151BC66000D3594C /* tweetagainstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F5745151BC66000D3594C /* tweetagainstTests.m */; };
+		930F5755151BCB3F00D3594C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F5754151BCB3F00D3594C /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		930F5742151BC66000D3594C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		930F5744151BC66000D3594C /* tweetagainstTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tweetagainstTests.h; sourceTree = "<group>"; };
 		930F5745151BC66000D3594C /* tweetagainstTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tweetagainstTests.m; sourceTree = "<group>"; };
+		930F5754151BCB3F00D3594C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930F5755151BCB3F00D3594C /* Twitter.framework in Frameworks */,
 				930F571B151BC66000D3594C /* UIKit.framework in Frameworks */,
 				930F571D151BC66000D3594C /* Foundation.framework in Frameworks */,
 				930F571F151BC66000D3594C /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +84,7 @@
 		930F570B151BC66000D3594C = {
 			isa = PBXGroup;
 			children = (
+				930F5754151BCB3F00D3594C /* Twitter.framework */,
 				930F5720151BC66000D3594C /* tweetagainst */,
 				930F573E151BC66000D3594C /* tweetagainstTests */,
 				930F5719151BC66000D3594C /* Frameworks */,
