@@ -1,0 +1,345 @@
+TTweetsAgainstHumanity
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Info.plist TweetsAgainstHumanity/TweetsAgainstHumanity-Info.plist
+cProcessPCH /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetsAgainstHumanity-Prefix-cszktyyzykhhyddsldwooggwofze/TweetsAgainstHumanity-Prefix.pch.pth TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/main.o /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/AppDelegate.o /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/LoadingViewController.o /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/TweetsAgainstHumanity normal i386
+cGenerateDSYMFile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app.dSYM /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/TweetsAgainstHumanity
+cCpResource TweetsAgainstHumanity/../../tweetagainst/Assets build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Assets
+cCopyStringsFile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/en.lproj/InfoPlist.strings TweetsAgainstHumanity/en.lproj/InfoPlist.strings
+cCopyPlistFile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/categories.plist TweetsAgainstHumanity/../../tweetagainst/tweetagainst/categories.plist
+cCopyPlistFile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/responses.plist TweetsAgainstHumanity/../../tweetagainst/tweetagainst/responses.plist
+cCpResource Default.png build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default.png
+cCompileXIB /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.xib
+cCpResource Default@2x.png build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default@2x.png
+cTouch /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004EEFAC6E0000000000000110
+t1324330094
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/Default.png
+c000000004F6B9581000000000000328F
+t1332450689
+s12943
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/Default@2x.png
+c000000004F6B95810000000000005AD2
+t1332450689
+s23250
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/../../tweetagainst/Assets
+c000000004F6B95B700000000000000AA
+t1332450743
+s170
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/../../tweetagainst/tweetagainst/categories.plist
+c000000004F6B985C00000000000000DB
+t1332451420
+s219
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/../../tweetagainst/tweetagainst/responses.plist
+c000000004F6B9832000000000000015B
+t1332451378
+s347
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/AppDelegate.h
+c000000004F6B9BD9000000000000012A
+t1332452313
+s298
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/AppDelegate.m
+c000000004F6B9DB000000000000009A3
+t1332452784
+s2467
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.h
+c000000004F6B9DA800000000000000FA
+t1332452776
+s250
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.m
+c000000004F6B9DA80000000000000499
+t1332452776
+s1177
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.xib
+c000000004F6B9E1600000000000019B3
+t1332452886
+s6579
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch
+c000000004F6B9BD90000000000000159
+t1332452313
+s345
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/en.lproj/InfoPlist.strings
+c000000004F6B9BD9000000000000002D
+t1332452313
+s45
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/main.m
+c000000004F6B9BD90000000000000165
+t1332452313
+s357
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app
+t1332452796
+s408
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app.dSYM
+t1332452796
+s102
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Assets
+t1332452796
+s136
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default.png
+t1332452796
+s12943
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default@2x.png
+t1332452796
+s23250
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Info.plist
+t1332452727
+s842
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/LoadingViewController.nib
+t1332452796
+s1072
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/PkgInfo
+t1332452727
+s8
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/TweetsAgainstHumanity
+t1332452796
+s18036
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/categories.plist
+t1332452796
+s55
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/en.lproj/InfoPlist.strings
+t1332452796
+s42
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/responses.plist
+t1332452796
+s107
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/AppDelegate.o
+t1332452796
+s51764
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/LoadingViewController.o
+t1332452796
+s39504
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/TweetsAgainstHumanity.LinkFileList
+c000000004F6B9DBC000000000000020D
+t1332452796
+s525
+
+N/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/main.o
+t1332452728
+s2796
+
+N/var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetsAgainstHumanity-Prefix-cszktyyzykhhyddsldwooggwofze/TweetsAgainstHumanity-Prefix.pch.pth
+t1332452728
+s3915240
+
+NTweetsAgainstHumanity/TweetsAgainstHumanity-Info.plist
+c000000004F6B9D230000000000000483
+t1332452643
+s1155
+
+CBuild AST from /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/AppDelegate.m
+r0
+
+CBuild AST from /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.m
+r0
+
+CBuild AST from /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesab07c098d51bb541^9d11c198d51bb541^---0#1#0#--18"Check dependencies36"6AE47E96-B424-454D-8A2C-CDBDBC8F6CA9-
+
+CCompileC build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/AppDelegate.o /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s354145596.761490
+e354145596.824652
+r1
+xCompileC
+xbuild/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/AppDelegate.o
+x/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/AppDelegate.m0210c33cd51bb541^ef1fd33cd51bb541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/AppDelegate.m0000000000000000^3226"CompileC build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/AppDelegate.o TweetsAgainstHumanity/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-generated-files.hmap -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-own-target-headers.hmap -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-all-target-headers.hmap -iquote /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-project-headers.hmap -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/include -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/DerivedSources/i386 -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/DerivedSources -F/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator -include /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetsAgainstHumanity-Prefix-cszktyyzykhhyddsldwooggwofze/TweetsAgainstHumanity-Prefix.pch -MMD -MT dependencies -MF /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/AppDelegate.d -c /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/AppDelegate.m -o /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/AppDelegate.o36"DE862FFF-0BB5-4FF6-BE05-0C80022322F6-
+
+CCompileC build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/LoadingViewController.o /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s354145596.762170
+e354145596.814727
+r1
+xCompileC
+xbuild/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/LoadingViewController.o
+x/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.meb3bc33cd51bb541^b1a4d03cd51bb541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.m0000000000000000^3276"CompileC build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/LoadingViewController.o TweetsAgainstHumanity/LoadingViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-generated-files.hmap -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-own-target-headers.hmap -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-all-target-headers.hmap -iquote /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-project-headers.hmap -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/include -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/DerivedSources/i386 -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/DerivedSources -F/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator -include /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetsAgainstHumanity-Prefix-cszktyyzykhhyddsldwooggwofze/TweetsAgainstHumanity-Prefix.pch -MMD -MT dependencies -MF /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/LoadingViewController.d -c /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.m -o /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/LoadingViewController.o36"3C3913A2-B032-4CC6-BD34-2E1DF2CC38C7-
+
+CCompileC build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/main.o /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s354145528.320645
+e354145528.341381
+r1
+xCompileC
+xbuild/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/main.o
+x/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/main.m0e2d52f8d41bb541^5a6457f8d41bb541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/main.m0000000000000000^3191"CompileC build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/main.o TweetsAgainstHumanity/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-generated-files.hmap -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-own-target-headers.hmap -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-all-target-headers.hmap -iquote /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-project-headers.hmap -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/include -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/DerivedSources/i386 -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/DerivedSources -F/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator -include /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetsAgainstHumanity-Prefix-cszktyyzykhhyddsldwooggwofze/TweetsAgainstHumanity-Prefix.pch -MMD -MT dependencies -MF /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/main.d -c /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/main.m -o /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/main.o36"13D58E3B-AFDC-423F-BCE8-9856521B9242-
+
+CCompileXIB /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.xib
+s354145688.795599
+e354145688.810280
+r1
+xCompileXIB
+x/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compiling /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.xibcbbacb98d51bb541^8f6fcf98d51bb541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.xib0000000000000000^796"CompileXIB TweetsAgainstHumanity/LoadingViewController.xib    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/LoadingViewController.nib /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/LoadingViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"5B28F5A5-FFBB-46A1-994F-FE9071C65830-
+
+CCopyPlistFile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/categories.plist TweetsAgainstHumanity/../../tweetagainst/tweetagainst/categories.plist
+s354145596.894190
+e354145596.899316
+r1
+xCopyPlistFile
+x/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/categories.plist
+xTweetsAgainstHumanity/../../tweetagainst/tweetagainst/categories.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy TweetsAgainstHumanity/../../tweetagainst/tweetagainst/categories.plist12fbe43cd51bb541^e146e63cd51bb541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/../../tweetagainst/tweetagainst/categories.plist0000000000000000^583"CopyPlistFile build/Debug-iphonesimulator/TweetsAgainstHumanity.app/categories.plist TweetsAgainstHumanity/../../tweetagainst/tweetagainst/categories.plist    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app -- TweetsAgainstHumanity/../../tweetagainst/tweetagainst/categories.plist36"CE6265D7-A728-4E13-B075-BE008779333A-
+
+CCopyPlistFile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/responses.plist TweetsAgainstHumanity/../../tweetagainst/tweetagainst/responses.plist
+s354145596.894867
+e354145596.900288
+r1
+xCopyPlistFile
+x/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/responses.plist
+xTweetsAgainstHumanity/../../tweetagainst/tweetagainst/responses.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy TweetsAgainstHumanity/../../tweetagainst/tweetagainst/responses.plist2924e53cd51bb541^6879e63cd51bb541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/../../tweetagainst/tweetagainst/responses.plist0000000000000000^580"CopyPlistFile build/Debug-iphonesimulator/TweetsAgainstHumanity.app/responses.plist TweetsAgainstHumanity/../../tweetagainst/tweetagainst/responses.plist    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app -- TweetsAgainstHumanity/../../tweetagainst/tweetagainst/responses.plist36"A0CF0F1E-7E2D-4A5D-9F11-9F694A1E2141-
+
+CCopyStringsFile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/en.lproj/InfoPlist.strings TweetsAgainstHumanity/en.lproj/InfoPlist.strings
+s354145596.893592
+e354145596.896305
+r1
+xCopyStringsFile
+x/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/en.lproj/InfoPlist.strings
+xTweetsAgainstHumanity/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy TweetsAgainstHumanity/en.lproj/InfoPlist.strings66dce43cd51bb541^7174e53cd51bb541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/en.lproj/InfoPlist.strings0000000000000000^601"CopyStringsFile build/Debug-iphonesimulator/TweetsAgainstHumanity.app/en.lproj/InfoPlist.strings TweetsAgainstHumanity/en.lproj/InfoPlist.strings    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/en.lproj -- TweetsAgainstHumanity/en.lproj/InfoPlist.strings36"10831E8C-9BAB-4F09-BA03-76300236F89F-
+
+CCpResource Default.png build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default.png
+s354145596.898201
+e354145596.903587
+r1
+xCpResource
+xDefault.png
+xbuild/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default.pngc902e63cd51bb541^8a59e73cd51bb541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default.png00f430e5deffdf42^573"CpResource Default.png build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default.png    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/Default.png /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app36"61B84053-2E5C-467F-A57A-7CB92AAD8549-
+
+CCpResource Default@2x.png build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default@2x.png
+s354145596.900438
+e354145596.903929
+r1
+xCpResource
+xDefault@2x.png
+xbuild/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default@2x.png3195e63cd51bb541^a06fe73cd51bb541^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default@2x.png00f430e5deffdf42^588"CpResource "Default@2x.png" "build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Default@2x.png"    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/Default@2x.png" /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app36"53F20D65-C541-4DA3-87A4-8CDD4804A0EE-
+
+CCpResource TweetsAgainstHumanity/../../tweetagainst/Assets build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Assets
+s354145596.893953
+e354145596.899309
+r1
+xCpResource
+xTweetsAgainstHumanity/../../tweetagainst/Assets
+xbuild/Debug-iphonesimulator/TweetsAgainstHumanity.app/Assets
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Assets70e9e43cd51bb541^8a3fe63cd51bb541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Assets00f430e5deffdf42^640"CpResource TweetsAgainstHumanity/../../tweetagainst/Assets build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Assets    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/../../tweetagainst/Assets /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app36"AFF04540-679E-42C5-A61A-214A70FF3B10-
+
+CGenerateDSYMFile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app.dSYM /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/TweetsAgainstHumanity
+s354145596.867022
+e354145596.884394
+r1
+xGenerateDSYMFile
+x/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app.dSYM
+x/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/TweetsAgainstHumanity
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Generating /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app.dSYM7905de3cd51bb541^d767e23cd51bb541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app.dSYM00f430e5deffdf42^628"GenerateDSYMFile build/Debug-iphonesimulator/TweetsAgainstHumanity.app.dSYM build/Debug-iphonesimulator/TweetsAgainstHumanity.app/TweetsAgainstHumanity    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/TweetsAgainstHumanity -o /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app.dSYM36"01460B01-A5E6-4E27-8CD9-78AD1F6FB60A-
+
+CLd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/TweetsAgainstHumanity normal i386
+s354145596.831452
+e354145596.860226
+r1
+xLd
+x/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/TweetsAgainstHumanity
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Link /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/TweetsAgainstHumanity3aead43cd51bb541^f837dc3cd51bb541^---0#0#0#--1225"Ld build/Debug-iphonesimulator/TweetsAgainstHumanity.app/TweetsAgainstHumanity normal i386    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator -F/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator -filelist /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/Objects-normal/i386/TweetsAgainstHumanity.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/TweetsAgainstHumanity36"55C18B5A-312E-436F-BE62-1EEE34C1C0F6-
+
+CProcessInfoPlistFile /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Info.plist TweetsAgainstHumanity/TweetsAgainstHumanity-Info.plist
+s354145527.973501
+e354145527.976745
+r1
+xProcessInfoPlistFile
+x/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Info.plist
+xTweetsAgainstHumanity/TweetsAgainstHumanity-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Process TweetsAgainstHumanity/TweetsAgainstHumanity-Info.plist4644f9f7d41bb541^390cfaf7d41bb541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/TweetsAgainstHumanity-Info.plist0000000000000000^735"ProcessInfoPlistFile build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Info.plist TweetsAgainstHumanity/TweetsAgainstHumanity-Info.plist    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TweetsAgainstHumanity/TweetsAgainstHumanity-Info.plist -genpkginfo /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app/Info.plist36"63FA8F48-CA7C-4CA7-9060-E89838741602-
+
+CProcessPCH /Users/adamtelfer/Library/Developer/Xcode/DerivedData/TweetsAgainstHumanity-cjcubcmzjdqupnfeboatqvudbpbj/Index/PrecompiledHeaders/TweetsAgainstHumanity-Prefix-frglfdfmdlhgenclieoamirjeipy_ast/TweetsAgainstHumanity-Prefix.pch.pth TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetsAgainstHumanity-Prefix-cszktyyzykhhyddsldwooggwofze/TweetsAgainstHumanity-Prefix.pch.pth TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s354145527.985632
+e354145528.313503
+r1
+xProcessPCH
+x/var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetsAgainstHumanity-Prefix-cszktyyzykhhyddsldwooggwofze/TweetsAgainstHumanity-Prefix.pch.pth
+xTweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Precompile TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pchcf6bfcf7d41bb541^ee4150f8d41bb541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch0000000000000000^3178"ProcessPCH /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetsAgainstHumanity-Prefix-cszktyyzykhhyddsldwooggwofze/TweetsAgainstHumanity-Prefix.pch.pth TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-generated-files.hmap -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-own-target-headers.hmap -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-all-target-headers.hmap -iquote /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/TweetsAgainstHumanity-project-headers.hmap -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/include -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/DerivedSources/i386 -I/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/TweetsAgainstHumanity.build/Debug-iphonesimulator/TweetsAgainstHumanity.build/DerivedSources -F/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator -c /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/TweetsAgainstHumanity/TweetsAgainstHumanity-Prefix.pch -o /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetsAgainstHumanity-Prefix-cszktyyzykhhyddsldwooggwofze/TweetsAgainstHumanity-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bm/g1bwr49x3xj5jywvzwtvv5cw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TweetsAgainstHumanity-Prefix-cszktyyzykhhyddsldwooggwofze/TweetsAgainstHumanity-Prefix.pch.d36"46E01150-87BC-48A7-AD24-4A938A1D8834-
+
+CTouch /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app
+s354145688.818258
+e354145688.822416
+r1
+xTouch
+x/Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Touch /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app8387d198d51bb541^db89d298d51bb541^---0#0#0#--386"Touch build/Debug-iphonesimulator/TweetsAgainstHumanity.app    cd /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adamtelfer/workspace/tweet/TweetsAgainstHumanity/build/Debug-iphonesimulator/TweetsAgainstHumanity.app36"1384F382-D645-4661-A21B-309F11668751-
+

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoadingViewController.h"
 
 @implementation AppDelegate
 
@@ -17,6 +18,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:
+        [[LoadingViewController alloc] initWithNibName:@"LoadingViewController" bundle:nil].view
+     ];
     [self.window makeKeyAndVisible];
     return YES;
 }
