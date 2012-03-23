@@ -51,6 +51,7 @@
 		930F58D9151CE8AA00D3594C /* ChooseWhiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930F58D7151CE8AA00D3594C /* ChooseWhiteViewController.xib */; };
 		9318392E151D166E007E50BE /* CreateGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9318392C151D166E007E50BE /* CreateGameViewController.m */; };
 		9318392F151D166E007E50BE /* CreateGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9318392D151D166E007E50BE /* CreateGameViewController.xib */; };
+		93A34713151D38E000C4B70B /* GameCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A34712151D38E000C4B70B /* GameCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,8 @@
 		9318392B151D166E007E50BE /* CreateGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateGameViewController.h; sourceTree = "<group>"; };
 		9318392C151D166E007E50BE /* CreateGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateGameViewController.m; sourceTree = "<group>"; };
 		9318392D151D166E007E50BE /* CreateGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateGameViewController.xib; sourceTree = "<group>"; };
+		93A34711151D38E000C4B70B /* GameCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCache.h; sourceTree = "<group>"; };
+		93A34712151D38E000C4B70B /* GameCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +292,8 @@
 		930F57CF151BDDBD00D3594C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				93A34711151D38E000C4B70B /* GameCache.h */,
+				93A34712151D38E000C4B70B /* GameCache.m */,
 				930F57C7151BD8A200D3594C /* GameParameters.h */,
 				930F57C8151BD8A200D3594C /* GameParameters.m */,
 				930F57D0151BDDD900D3594C /* TwitterCache.h */,
@@ -435,6 +440,7 @@
 				930F58D0151CD06E00D3594C /* NSDictionary+XMG.m in Sources */,
 				930F58D8151CE8AA00D3594C /* ChooseWhiteViewController.m in Sources */,
 				9318392E151D166E007E50BE /* CreateGameViewController.m in Sources */,
+				93A34713151D38E000C4B70B /* GameCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
