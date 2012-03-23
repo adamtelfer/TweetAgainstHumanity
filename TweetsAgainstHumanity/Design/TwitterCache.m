@@ -58,8 +58,9 @@ static TwitterCache* _cache;
     NSString* gameId = @"GAM";
     NSString* cardId = @"DD";
     NSString* response = GETTEXT(@"SEND_WHITE_CARD");
-    
-    NSString* string = [NSString stringWithFormat:@"#TAH #1%@%@ %@",gameId,cardId,response];
+    // need to define and cache black player
+    NSString* black_player = @"";
+    NSString* string = [NSString stringWithFormat:@"@%@ #TAH #1%@%@ %@", black_player,gameId,cardId,response];
     
     return string;
 }
@@ -120,7 +121,8 @@ static TwitterCache* _cache;
                               if (results) {
                                   for (NSDictionary* tweet in results) {
                                       NSString* message = [tweet objectForKey:@"text"];
-                                      NSRegularExpression *gamecodes = [[NSRegularExpression alloc] initWithPattern:@"" options:NSRegularExpressionCaseInsensitive error:nil];
+                                      NSRegularExpression *gamecode = [[NSRegularExpression alloc] initWithPattern:@"" options:NSRegularExpressionCaseInsensitive error:nil];
+                                      NSLog(@"%@", gamecode);
                                                                    
                                       if ([message rangeOfString:@"#tah"].location != NSNotFound) {
                                           blackCards = message;
