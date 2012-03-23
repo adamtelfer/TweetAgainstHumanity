@@ -35,6 +35,18 @@ static GameParameters* _parameters;
     return self;
 }
 
+- (int) getWhiteCardInd:(NSString*)whiteCard
+{
+    int i = 0;
+    for (NSString* w in responses) {
+        if ([w isEqualToString:whiteCard]) {
+            return i;
+        }
+        i++;
+    }
+    return 0;
+}
+
 - (NSString*) getRandomWhiteCard:(int)seed
 {
     int ind = rand() % [responses count];

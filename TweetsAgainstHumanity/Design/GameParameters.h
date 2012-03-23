@@ -20,6 +20,8 @@
 
 @property (strong) NSDictionary* gameText;
 
+- (int) getWhiteCardInd:(NSString*)card;
+
 - (NSString*) getBlackCardForId:(int)ind;
 
 - (NSString*) getRandomWhiteCard:(int)seed;

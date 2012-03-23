@@ -77,12 +77,16 @@ static TwitterCache* _cache;
 
 - (NSString*) tweetForWhiteCard:(WhiteCard*)whiteCard onBlackCard:(BlackCard*)blackCard
 {
-    NSString* gameId = @"GAM";
-    NSString* cardId = @"DD";
+    NSDictionary* gameData = [blackCard gameId];
+    
+    NSString* gameId = [gameData objectForKey:@"GAMEID"];
+    
+    int whiteCardInd = [[GameParameters sharedParameters] getWhiteCardInd:whiteCard];
+    
     NSString* response = GETTEXT(@"SEND_WHITE_CARD");
     // need to define and cache black player
-    NSString* black_player = @"";
-    NSString* string = [NSString stringWithFormat:@"@%@ #TAH #1%@%@ %@", black_player,gameId,cardId,response];
+    NSString* black_player = [blackCard senderUsername];
+    NSString* string = [NSString stringWithFormat:@"#TAH #1%@%03d \@%@ %@", gameId,whiteCardInd,black_player,response];
     
     return string;
 }
