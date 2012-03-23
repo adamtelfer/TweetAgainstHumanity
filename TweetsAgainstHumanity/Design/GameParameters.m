@@ -11,7 +11,7 @@
 
 @implementation GameParameters
 
-@synthesize responses, categories, gameText;
+@synthesize gameText;
 
 static GameParameters* _parameters;
 
@@ -28,11 +28,22 @@ static GameParameters* _parameters;
         NSString *thePath = [[NSBundle mainBundle] pathForResource:@"text" ofType:@"plist"];
         self.gameText = [[NSDictionary alloc] initWithContentsOfFile:thePath];
         thePath = [[NSBundle mainBundle] pathForResource:@"responses" ofType:@"plist"];
-        self.responses = [[NSArray alloc] initWithContentsOfFile:thePath];
+        responses = [[NSArray alloc] initWithContentsOfFile:thePath];
         thePath = [[NSBundle mainBundle] pathForResource:@"categories" ofType:@"plist"];
-        self.categories = [[NSArray alloc] initWithContentsOfFile:thePath];
+        categories = [[NSArray alloc] initWithContentsOfFile:thePath];
     }
     return self;
+}
+
+- (NSString*) getRandomWhiteCard:(int)seed
+{
+    int ind = rand() % [responses count];
+    return [responses objectAtIndex:ind];
+}
+- (NSString*) getRandomBlackCard:(int)seed
+{
+    int ind = rand() % [categories count];
+    return [categories objectAtIndex:ind];
 }
 
 - (NSString*) getTextForKey:(NSString *)key
@@ -48,8 +59,8 @@ static GameParameters* _parameters;
 }
 
 - (void) dealloc {
-    self.responses = nil;
-    self.categories = nil;
+    responses = nil;
+    categories = nil;
 }
 
 @end

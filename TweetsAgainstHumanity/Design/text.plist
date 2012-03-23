@@ -22,5 +22,9 @@
 	<array>
 		<string>Finished</string>
 	</array>
+	<key>SEND_WHITE_CARD</key>
+	<array>
+		<string>Just played on your black card.</string>
+	</array>
 </dict>
 </plist>

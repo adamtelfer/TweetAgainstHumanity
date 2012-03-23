@@ -9,6 +9,36 @@
 #import "TwitterCache.h"
 #import <Twitter/Twitter.h>
 #import <Accounts/Accounts.h>
+#import "GameParameters.h"
+
+
+FIX_CATEGORY_BUG(NSDictionary_Card);
+
+@implementation NSDictionary (Card)
+
+-(NSString*) tweetText
+{
+    return @"Tweet";
+}
+
+-(NSString*) cardText
+{
+    return @"_. That's how I want to die.";
+
+}
+
+-(NSURL*) senderImage
+{
+    return [NSURL URLWithString:@"https://twimg0-a.akamaihd.net/profile_images/518090158/good_normal.gif"];
+}
+
+-(NSString*) senderUsername
+{
+    return @"Username";
+}
+
+@end
+
 
 @implementation TwitterCache
 
@@ -21,6 +51,17 @@ static TwitterCache* _cache;
         _cache = [[TwitterCache alloc] init];
     }
     return _cache;
+}
+
+- (NSString*) tweetForWhiteCard:(WhiteCard*)whiteCard onBlackCard:(BlackCard*)blackCard
+{
+    NSString* gameId = @"GAM";
+    NSString* cardId = @"DD";
+    NSString* response = GETTEXT(@"SEND_WHITE_CARD");
+    
+    NSString* string = [NSString stringWithFormat:@"#TAH #1%@%@ %@",gameId,cardId,response];
+    
+    return string;
 }
 
 - (BOOL) isLoggedIn {

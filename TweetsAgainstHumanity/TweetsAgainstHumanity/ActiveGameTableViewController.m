@@ -9,6 +9,7 @@
 #import "ActiveGameTableViewController.h"
 #import "TwitterCache.h"
 #import "GameParameters.h"
+#import "ChooseWhiteViewController.h"
 
 #import "AppDelegate.h"
 
@@ -46,11 +47,11 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     if (section == BLACK_SECTION)
-        return [[TwitterCache sharedCache].blackCards count];
+        return [[TwitterCache sharedCache].blackCards count] + 2;
     if (section == WHITE_SECTION)
-        return 0;
+        return 2;
     if (section == DONE_SECTION)
-        return 0;
+        return 2;
     if (section == HELP_SECTION)
         return 2;
 }
@@ -63,6 +64,13 @@
 - (UITableViewCell *) blackCardForIndexPath:(NSIndexPath*)indexPath
 {
     UITableViewCell* cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"Cell"];
+    NSDictionary* card = nil; 
+    if ([[TwitterCache sharedCache].blackCards count] > indexPath.row)
+        card = [[TwitterCache sharedCache].blackCards objectAtIndex:indexPath.row];
+    if (card == nil) card = [NSDictionary dictionary];
+    
+    cell.imageView.image = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[card senderImage]]];
+    cell.textLabel.text = [card cardText];
     return cell;
 }
 
@@ -114,12 +122,20 @@
     };
 }
 
+- (void) startGameWithBlackCard:(NSDictionary*)card
+{
+    ChooseWhiteViewController* viewController = [[ChooseWhiteViewController alloc] initWithNibName:@"ChooseWhiteViewController" bundle:nil];
+    viewController.blackCard = card;
+    [[AppDelegate sharedDelegate].rootViewController presentModalViewController:viewController animated:YES];
+}
+
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     int row = indexPath.row;
     int section = indexPath.section;
     if (section == BLACK_SECTION) {
-        
+        NSDictionary* card = [[TwitterCache sharedCache].blackCards objectAtIndex:row];
+        [self startGameWithBlackCard:card];
     } else if (section == HELP_SECTION) {
         if (row == 0) {
             [self askForHelp];

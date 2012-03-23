@@ -7,17 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Category.h"
 #define eTweetsUpdated @"eTweetsUpdated"
 
-@interface BlackCard : NSDictionary {
-    
-}
+typedef NSDictionary BlackCard;
+typedef NSString WhiteCard;
 
-@property (readonly) NSString* tweetText;
-@property (readonly) NSString* cardText;
-@property (readonly) NSURL* senderImage;
-@property (readonly) NSString* senderUsername;
+@interface NSDictionary (Card)
+
+-(NSString*) tweetText;
+-(NSString*) cardText;
+-(NSURL*) senderImage;
+-(NSString*) senderUsername;
 
 @end
 
@@ -35,6 +36,8 @@
 + (TwitterCache*) sharedCache;
 
 - (void) refresh;
+
+- (NSString*) tweetForWhiteCard:(WhiteCard*)whiteCard onBlackCard:(BlackCard*)blackCard;
 
 - (BOOL) isLoggedIn;
 

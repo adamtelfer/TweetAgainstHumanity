@@ -11,14 +11,18 @@
 #define GETTEXT(key) [[GameParameters sharedParameters] getTextForKey:key]
 
 @interface GameParameters : NSObject
+{
+    NSArray* responses;
+    NSArray* categories;
+}
 
 + (GameParameters*) sharedParameters;
 
 @property (strong) NSDictionary* gameText;
 
-- (NSString*) getTextForKey:(NSString*)key;
+- (NSString*) getRandomWhiteCard:(int)seed;
+- (NSString*) getRandomBlackCard:(int)seed;
 
-@property (retain) NSArray* responses;
-@property (retain) NSArray* categories;
+- (NSString*) getTextForKey:(NSString*)key;
 
 @end

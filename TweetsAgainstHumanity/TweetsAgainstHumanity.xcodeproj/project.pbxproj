@@ -35,6 +35,8 @@
 		930F58CA151CBBFD00D3594C /* ActiveGameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F58C9151CBBFD00D3594C /* ActiveGameTableViewController.m */; };
 		930F58CC151CCF5200D3594C /* text.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930F58CB151CCF5200D3594C /* text.plist */; };
 		930F58D0151CD06E00D3594C /* NSDictionary+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F58CF151CD06E00D3594C /* NSDictionary+XMG.m */; };
+		930F58D8151CE8AA00D3594C /* ChooseWhiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F58D6151CE8AA00D3594C /* ChooseWhiteViewController.m */; };
+		930F58D9151CE8AA00D3594C /* ChooseWhiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930F58D7151CE8AA00D3594C /* ChooseWhiteViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,9 @@
 		930F58CE151CD06E00D3594C /* NSDictionary+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XMG.h"; sourceTree = "<group>"; };
 		930F58CF151CD06E00D3594C /* NSDictionary+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XMG.m"; sourceTree = "<group>"; };
 		930F58D1151CD0E400D3594C /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		930F58D5151CE8AA00D3594C /* ChooseWhiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseWhiteViewController.h; sourceTree = "<group>"; };
+		930F58D6151CE8AA00D3594C /* ChooseWhiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseWhiteViewController.m; sourceTree = "<group>"; };
+		930F58D7151CE8AA00D3594C /* ChooseWhiteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseWhiteViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +217,9 @@
 				930F57CC151BDBBF00D3594C /* MainViewController.xib */,
 				930F58C8151CBBFD00D3594C /* ActiveGameTableViewController.h */,
 				930F58C9151CBBFD00D3594C /* ActiveGameTableViewController.m */,
+				930F58D5151CE8AA00D3594C /* ChooseWhiteViewController.h */,
+				930F58D6151CE8AA00D3594C /* ChooseWhiteViewController.m */,
+				930F58D7151CE8AA00D3594C /* ChooseWhiteViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -317,6 +325,7 @@
 				930F57C6151BD69500D3594C /* Assets in Resources */,
 				930F57CE151BDBBF00D3594C /* MainViewController.xib in Resources */,
 				930F58CC151CCF5200D3594C /* text.plist in Resources */,
+				930F58D9151CE8AA00D3594C /* ChooseWhiteViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +368,7 @@
 				930F57D2151BDDD900D3594C /* TwitterCache.m in Sources */,
 				930F58CA151CBBFD00D3594C /* ActiveGameTableViewController.m in Sources */,
 				930F58D0151CD06E00D3594C /* NSDictionary+XMG.m in Sources */,
+				930F58D8151CE8AA00D3594C /* ChooseWhiteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
