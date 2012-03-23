@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		108F6115151CBC69004613B7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108F6114151CBC69004613B7 /* Accounts.framework */; };
 		930F577C151BD35900D3594C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577B151BD35900D3594C /* UIKit.framework */; };
 		930F577E151BD35900D3594C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577D151BD35900D3594C /* Foundation.framework */; };
 		930F5780151BD35900D3594C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577F151BD35900D3594C /* CoreGraphics.framework */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		108F6114151CBC69004613B7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		930F5777151BD35900D3594C /* TweetsAgainstHumanity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetsAgainstHumanity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930F577B151BD35900D3594C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		930F577D151BD35900D3594C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108F6115151CBC69004613B7 /* Accounts.framework in Frameworks */,
 				930F58C7151BEB6A00D3594C /* libxml2.dylib in Frameworks */,
 				930F57D4151BDF5300D3594C /* Twitter.framework in Frameworks */,
 				930F577C151BD35900D3594C /* UIKit.framework in Frameworks */,
@@ -108,6 +111,7 @@
 		930F576C151BD35900D3594C = {
 			isa = PBXGroup;
 			children = (
+				108F6114151CBC69004613B7 /* Accounts.framework */,
 				930F58C6151BEB6A00D3594C /* libxml2.dylib */,
 				930F57B9151BD4AE00D3594C /* Default@2x.png */,
 				930F57B7151BD4AC00D3594C /* Default.png */,
