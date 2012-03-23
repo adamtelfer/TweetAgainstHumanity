@@ -14,4 +14,6 @@
 
 @property (retain) IBOutlet ActiveGameTableViewController* activeGameController;
 
+- (IBAction) refresh:(id)sender;
+
 @end

@@ -62,13 +62,17 @@
     [self presentModalViewController:twitter animated:YES];
     twitter.completionHandler = ^(TWTweetComposeViewControllerResult result) {
         // Dismiss the controller
-        [self  dismissModalViewControllerAnimated:YES];
-        [tableCell setSelected:NO animated:YES];
+        
+        
         
         if (result == TWTweetComposeViewControllerResultDone) {
+            [tableCell setSelected:NO animated:NO];
+            [self  dismissModalViewControllerAnimated:NO];
             [[AppDelegate sharedDelegate].rootViewController dismissModalViewControllerAnimated:YES];
+        } else {
+            [tableCell setSelected:NO animated:YES];
+            [self  dismissModalViewControllerAnimated:YES];
         }
-        
     };
 }
 
