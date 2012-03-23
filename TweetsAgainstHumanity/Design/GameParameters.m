@@ -35,6 +35,18 @@ static GameParameters* _parameters;
     return self;
 }
 
+- (int) getBlackCardInd:(NSString*)card
+{
+    int i = 0;
+    for (NSString* w in categories) {
+        if ([w isEqualToString:card]) {
+            return i;
+        }
+        i++;
+    }
+    return 0;
+}
+
 - (int) getWhiteCardInd:(NSString*)whiteCard
 {
     int i = 0;

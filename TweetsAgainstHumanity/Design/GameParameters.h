@@ -21,6 +21,7 @@
 @property (strong) NSDictionary* gameText;
 
 - (int) getWhiteCardInd:(NSString*)card;
+- (int) getBlackCardInd:(NSString*)card;
 
 - (NSString*) getBlackCardForId:(int)ind;
 

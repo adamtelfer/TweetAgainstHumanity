@@ -45,7 +45,6 @@
 - (void) _loadingGame
 {
     [GameParameters sharedParameters];
-    [TwitterCache sharedCache];
     [self performSelectorOnMainThread:@selector(_finishGame) withObject:nil waitUntilDone:NO];
 }
 
@@ -56,10 +55,17 @@
         
         [alertView show];
     } else {
-        [[AppDelegate sharedDelegate] changeToViewController:
-        [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil]
-     ];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_startGame) name:eTweetsUpdated object:[TwitterCache sharedCache]];
+        [[TwitterCache sharedCache] refresh];
+        
     }
+}
+
+- (void) _startGame
+{
+    [[AppDelegate sharedDelegate] changeToViewController:
+     [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil]
+    ];
 }
 
 - (void)viewDidUnload

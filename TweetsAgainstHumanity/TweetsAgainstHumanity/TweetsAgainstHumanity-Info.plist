@@ -12,6 +12,8 @@
 	<array/>
 	<key>CFBundleIdentifier</key>
 	<string>xmgstudio.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>UIStatusBarHidden</key>
+	<true/>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
