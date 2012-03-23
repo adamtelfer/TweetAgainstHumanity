@@ -11,6 +11,7 @@
 #import "MainViewController.h"
 #import "AppDelegate.h"
 #import "TwitterCache.h"
+#import <Twitter/Twitter.h>
 
 @implementation LoadingViewController
 
@@ -50,7 +51,7 @@
 
 - (void) _finishGame
 {
-    if (![[TwitterCache sharedCache] isLoggedIn]) {
+    if (![TWTweetComposeViewController canSendTweet]) {
         UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Twitter Required" message:@"Login to Twitter in your Settings App" delegate:nil cancelButtonTitle:@"Shiiiiit.." otherButtonTitles:nil];
         
         [alertView show];
