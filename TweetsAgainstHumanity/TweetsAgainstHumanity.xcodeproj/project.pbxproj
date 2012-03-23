@@ -31,6 +31,9 @@
 		930F57D2151BDDD900D3594C /* TwitterCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F57D1151BDDD900D3594C /* TwitterCache.m */; };
 		930F57D4151BDF5300D3594C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F57D3151BDF5300D3594C /* Twitter.framework */; };
 		930F58C7151BEB6A00D3594C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F58C6151BEB6A00D3594C /* libxml2.dylib */; };
+		930F58CA151CBBFD00D3594C /* ActiveGameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F58C9151CBBFD00D3594C /* ActiveGameTableViewController.m */; };
+		930F58CC151CCF5200D3594C /* text.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930F58CB151CCF5200D3594C /* text.plist */; };
+		930F58D0151CD06E00D3594C /* NSDictionary+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F58CF151CD06E00D3594C /* NSDictionary+XMG.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,13 @@
 		930F57D1151BDDD900D3594C /* TwitterCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterCache.m; sourceTree = "<group>"; };
 		930F57D3151BDF5300D3594C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		930F58C6151BEB6A00D3594C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		930F58C8151CBBFD00D3594C /* ActiveGameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveGameTableViewController.h; sourceTree = "<group>"; };
+		930F58C9151CBBFD00D3594C /* ActiveGameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveGameTableViewController.m; sourceTree = "<group>"; };
+		930F58CB151CCF5200D3594C /* text.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = text.plist; sourceTree = "<group>"; };
+		930F58CD151CD02800D3594C /* XMGMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMacros.h; sourceTree = "<group>"; };
+		930F58CE151CD06E00D3594C /* NSDictionary+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XMG.h"; sourceTree = "<group>"; };
+		930F58CF151CD06E00D3594C /* NSDictionary+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XMG.m"; sourceTree = "<group>"; };
+		930F58D1151CD0E400D3594C /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +152,10 @@
 		930F5781151BD35900D3594C /* TweetsAgainstHumanity */ = {
 			isa = PBXGroup;
 			children = (
+				930F58D1151CD0E400D3594C /* Category.h */,
+				930F58CE151CD06E00D3594C /* NSDictionary+XMG.h */,
+				930F58CF151CD06E00D3594C /* NSDictionary+XMG.m */,
+				930F58CD151CD02800D3594C /* XMGMacros.h */,
 				930F57CF151BDDBD00D3594C /* Models */,
 				930F57C5151BD69500D3594C /* Assets */,
 				930F57C0151BD68E00D3594C /* Design */,
@@ -192,6 +206,8 @@
 				930F57CA151BDBBF00D3594C /* MainViewController.h */,
 				930F57CB151BDBBF00D3594C /* MainViewController.m */,
 				930F57CC151BDBBF00D3594C /* MainViewController.xib */,
+				930F58C8151CBBFD00D3594C /* ActiveGameTableViewController.h */,
+				930F58C9151CBBFD00D3594C /* ActiveGameTableViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -201,6 +217,7 @@
 			children = (
 				930F57C1151BD68E00D3594C /* categories.plist */,
 				930F57C2151BD68E00D3594C /* responses.plist */,
+				930F58CB151CCF5200D3594C /* text.plist */,
 			);
 			path = Design;
 			sourceTree = SOURCE_ROOT;
@@ -295,6 +312,7 @@
 				930F57C4151BD68E00D3594C /* responses.plist in Resources */,
 				930F57C6151BD69500D3594C /* Assets in Resources */,
 				930F57CE151BDBBF00D3594C /* MainViewController.xib in Resources */,
+				930F58CC151CCF5200D3594C /* text.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +353,8 @@
 				930F57C9151BD8A200D3594C /* GameParameters.m in Sources */,
 				930F57CD151BDBBF00D3594C /* MainViewController.m in Sources */,
 				930F57D2151BDDD900D3594C /* TwitterCache.m in Sources */,
+				930F58CA151CBBFD00D3594C /* ActiveGameTableViewController.m in Sources */,
+				930F58D0151CD06E00D3594C /* NSDictionary+XMG.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

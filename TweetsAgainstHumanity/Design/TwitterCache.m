@@ -11,6 +11,8 @@
 
 @implementation TwitterCache
 
+@synthesize blackCards, whiteCards, doneCards;
+
 static TwitterCache* _cache;
 
 + (TwitterCache*) sharedCache {
@@ -28,7 +30,9 @@ static TwitterCache* _cache;
 {
     
     NSURL* requestURL = [NSURL URLWithString:@"http://search.twitter.com/search.json?q=%23TAH_BLK"];
+    
     TWRequest* request = [[TWRequest alloc] initWithURL:requestURL parameters:nil requestMethod:TWRequestMethodGET];
+    
     [request performRequestWithHandler:
      ^(NSData *responseData, NSHTTPURLResponse *urlResponse, NSError *error) {
          
@@ -47,6 +51,8 @@ static TwitterCache* _cache;
                  NSLog(@"%@", jsonError);
              }
          }
+         
+         [[NSNotificationCenter defaultCenter] postNotificationName:eTweetsUpdated object:nil];
      }];
     
 }

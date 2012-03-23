@@ -8,9 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+#define GETTEXT(key) [[GameParameters sharedParameters] getTextForKey:key]
+
 @interface GameParameters : NSObject
 
 + (GameParameters*) sharedParameters;
+
+@property (strong) NSDictionary* gameText;
+
+- (NSString*) getTextForKey:(NSString*)key;
 
 @property (retain) NSArray* responses;
 @property (retain) NSArray* categories;

@@ -8,8 +8,11 @@
 
 #import "MainViewController.h"
 #import "TwitterCache.h"
+#import "ActiveGameTableViewController.h"
 
 @implementation MainViewController
+
+@synthesize activeGameController;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,8 +35,6 @@
 
 - (void)viewDidLoad
 {
-    
-    
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

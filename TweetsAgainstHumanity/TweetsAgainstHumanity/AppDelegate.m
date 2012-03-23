@@ -11,6 +11,7 @@
 
 @implementation AppDelegate
 
+@synthesize rootViewController;
 @synthesize window = _window;
 
 static AppDelegate* _delegate;

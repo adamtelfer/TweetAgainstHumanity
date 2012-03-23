@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class ActiveGameTableViewController;
+
 @interface MainViewController : UIViewController
+
+@property (retain) IBOutlet ActiveGameTableViewController* activeGameController;
 
 @end
