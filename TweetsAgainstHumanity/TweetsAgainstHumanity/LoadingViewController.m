@@ -11,6 +11,7 @@
 #import "MainViewController.h"
 #import "AppDelegate.h"
 #import "TwitterCache.h"
+#import <Twitter/Twitter.h>
 
 @implementation LoadingViewController
 
@@ -45,21 +46,26 @@
 - (void) _loadingGame
 {
     [GameParameters sharedParameters];
-    [TwitterCache sharedCache];
     [self performSelectorOnMainThread:@selector(_finishGame) withObject:nil waitUntilDone:NO];
 }
 
 - (void) _finishGame
 {
-    if (![[TwitterCache sharedCache] isLoggedIn]) {
+    if (![TWTweetComposeViewController canSendTweet]) {
         UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Twitter Required" message:@"Login to Twitter in your Settings App" delegate:nil cancelButtonTitle:@"Shiiiiit.." otherButtonTitles:nil];
         
         [alertView show];
     } else {
-        [[AppDelegate sharedDelegate] changeToViewController:
-        [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil]
-     ];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_startGame) name:eTweetsUpdated object:nil];
+        [TwitterCache sharedCache];
     }
+}
+
+- (void) _startGame
+{
+    [[AppDelegate sharedDelegate] changeToViewController:
+     [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil]
+    ];
 }
 
 - (void)viewDidUnload

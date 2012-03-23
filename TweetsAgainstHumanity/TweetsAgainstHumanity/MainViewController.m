@@ -9,6 +9,8 @@
 #import "MainViewController.h"
 #import "TwitterCache.h"
 #import "ActiveGameTableViewController.h"
+#import "AppDelegate.h"
+#import "LoadingViewController.h"
 
 @implementation MainViewController
 
@@ -33,7 +35,7 @@
 
 - (IBAction) refresh:(id)sender
 {
-    [[TwitterCache sharedCache] refresh];
+    [[AppDelegate sharedDelegate] changeToViewController:[[LoadingViewController alloc] initWithNibName:@"LoadingViewController" bundle:nil]];
 }
 
 #pragma mark - View lifecycle

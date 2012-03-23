@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		108F6115151CBC69004613B7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108F6114151CBC69004613B7 /* Accounts.framework */; };
-		108F6120151D1AF9004613B7 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 108F611F151D1AF9004613B7 /* icon-57.png */; };
-		108F6123151D1AFD004613B7 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 108F6122151D1AFD004613B7 /* icon-114.png */; };
 		930F577C151BD35900D3594C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577B151BD35900D3594C /* UIKit.framework */; };
 		930F577E151BD35900D3594C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577D151BD35900D3594C /* Foundation.framework */; };
 		930F5780151BD35900D3594C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577F151BD35900D3594C /* CoreGraphics.framework */; };
@@ -39,6 +37,8 @@
 		930F58D0151CD06E00D3594C /* NSDictionary+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F58CF151CD06E00D3594C /* NSDictionary+XMG.m */; };
 		930F58D8151CE8AA00D3594C /* ChooseWhiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F58D6151CE8AA00D3594C /* ChooseWhiteViewController.m */; };
 		930F58D9151CE8AA00D3594C /* ChooseWhiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930F58D7151CE8AA00D3594C /* ChooseWhiteViewController.xib */; };
+		9318392E151D166E007E50BE /* CreateGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9318392C151D166E007E50BE /* CreateGameViewController.m */; };
+		9318392F151D166E007E50BE /* CreateGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9318392D151D166E007E50BE /* CreateGameViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +53,6 @@
 
 /* Begin PBXFileReference section */
 		108F6114151CBC69004613B7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
-		108F611F151D1AF9004613B7 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
-		108F6122151D1AFD004613B7 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
 		930F5777151BD35900D3594C /* TweetsAgainstHumanity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetsAgainstHumanity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930F577B151BD35900D3594C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		930F577D151BD35900D3594C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,6 +96,9 @@
 		930F58D5151CE8AA00D3594C /* ChooseWhiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseWhiteViewController.h; sourceTree = "<group>"; };
 		930F58D6151CE8AA00D3594C /* ChooseWhiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseWhiteViewController.m; sourceTree = "<group>"; };
 		930F58D7151CE8AA00D3594C /* ChooseWhiteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseWhiteViewController.xib; sourceTree = "<group>"; };
+		9318392B151D166E007E50BE /* CreateGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateGameViewController.h; sourceTree = "<group>"; };
+		9318392C151D166E007E50BE /* CreateGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateGameViewController.m; sourceTree = "<group>"; };
+		9318392D151D166E007E50BE /* CreateGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateGameViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +131,6 @@
 		930F576C151BD35900D3594C = {
 			isa = PBXGroup;
 			children = (
-				108F6122151D1AFD004613B7 /* icon-114.png */,
-				108F611F151D1AF9004613B7 /* icon-57.png */,
 				108F6114151CBC69004613B7 /* Accounts.framework */,
 				930F58C6151BEB6A00D3594C /* libxml2.dylib */,
 				930F57B9151BD4AE00D3594C /* Default@2x.png */,
@@ -226,6 +225,9 @@
 				930F58D5151CE8AA00D3594C /* ChooseWhiteViewController.h */,
 				930F58D6151CE8AA00D3594C /* ChooseWhiteViewController.m */,
 				930F58D7151CE8AA00D3594C /* ChooseWhiteViewController.xib */,
+				9318392B151D166E007E50BE /* CreateGameViewController.h */,
+				9318392C151D166E007E50BE /* CreateGameViewController.m */,
+				9318392D151D166E007E50BE /* CreateGameViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -332,8 +334,7 @@
 				930F57CE151BDBBF00D3594C /* MainViewController.xib in Resources */,
 				930F58CC151CCF5200D3594C /* text.plist in Resources */,
 				930F58D9151CE8AA00D3594C /* ChooseWhiteViewController.xib in Resources */,
-				108F6120151D1AF9004613B7 /* icon-57.png in Resources */,
-				108F6123151D1AFD004613B7 /* icon-114.png in Resources */,
+				9318392F151D166E007E50BE /* CreateGameViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +378,7 @@
 				930F58CA151CBBFD00D3594C /* ActiveGameTableViewController.m in Sources */,
 				930F58D0151CD06E00D3594C /* NSDictionary+XMG.m in Sources */,
 				930F58D8151CE8AA00D3594C /* ChooseWhiteViewController.m in Sources */,
+				9318392E151D166E007E50BE /* CreateGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@
 #import "TwitterCache.h"
 #import "GameParameters.h"
 #import "ChooseWhiteViewController.h"
+#import "CreateGameViewController.h"
 
 #import "AppDelegate.h"
 
@@ -69,7 +70,7 @@
     if (section == BLACK_SECTION)
         return [[TwitterCache sharedCache].blackCards count];
     if (section == WHITE_SECTION)
-        return 0;
+        return [[TwitterCache sharedCache].whiteCards count] + 1;
     if (section == DONE_SECTION)
         return 0;
     if (section == HELP_SECTION)
@@ -80,6 +81,20 @@
 // Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
 
 #pragma mark Cells
+
+- (UITableViewCell *) whiteCardForIndexPath:(NSIndexPath*)indexPath
+{
+    int row = indexPath.row;
+    
+    UITableViewCell* cell = nil;
+    if (row >= [[TwitterCache sharedCache].whiteCards count]) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
+        cell.textLabel.text = @"Create Game";
+        return cell;
+    } else {
+        
+    }
+}
 
 - (UITableViewCell *) blackCardForIndexPath:(NSIndexPath*)indexPath
 {
@@ -102,6 +117,8 @@
     
     if (section == BLACK_SECTION) {
         return [self blackCardForIndexPath:indexPath];
+    } else if (section == WHITE_SECTION) {
+        return [self whiteCardForIndexPath:indexPath];
     } else if (section == HELP_SECTION) {
         if (row == 0) {
             UITableViewCell* cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"HelpCell"];
@@ -149,6 +166,12 @@
     [[AppDelegate sharedDelegate].rootViewController presentModalViewController:viewController animated:YES];
 }
 
+- (void) createGame
+{
+    CreateGameViewController* viewController = [[CreateGameViewController alloc] initWithNibName:@"CreateGameViewController" bundle:nil];
+    [[AppDelegate sharedDelegate].rootViewController presentModalViewController:viewController animated:YES];
+}
+
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     int row = indexPath.row;
@@ -156,6 +179,8 @@
     if (section == BLACK_SECTION) {
         NSDictionary* card = [[TwitterCache sharedCache].blackCards objectAtIndex:row];
         [self startGameWithBlackCard:card];
+    } else if (section == WHITE_SECTION) { 
+        [self createGame];
     } else if (section == HELP_SECTION) {
         if (row == 0) {
             [self askForHelp];
