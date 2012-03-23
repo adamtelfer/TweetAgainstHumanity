@@ -10,12 +10,15 @@
 
 #define eTweetsUpdated @"eTweetsUpdated"
 
-@interface BlackCard : NSObject {
-@private
-    NSDictionary* tweet;
+@interface BlackCard : NSDictionary {
+    
 }
-- (id) initWithTweetDictionary:(NSDictionary*)tweet;
-@property (readonly) NSString* text;
+
+@property (readonly) NSString* tweetText;
+@property (readonly) NSString* cardText;
+@property (readonly) NSURL* senderImage;
+@property (readonly) NSString* senderUsername;
+
 @end
 
 @interface TwitterCache : NSObject
@@ -25,11 +28,9 @@
     NSArray* doneCards;
 }
 
-/*
-- (NSArray*) activeGames;
-- (NSArray*) myGames;
-- (NSArray*) finishedGames;
-*/
+@property (readonly) NSArray* blackCards;
+@property (readonly) NSArray* whiteCards;
+@property (readonly) NSArray* doneCards;
 
 + (TwitterCache*) sharedCache;
 

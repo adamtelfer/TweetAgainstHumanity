@@ -12,6 +12,8 @@
 
 @implementation TwitterCache
 
+@synthesize blackCards, whiteCards, doneCards;
+
 static TwitterCache* _cache;
 
 + (TwitterCache*) sharedCache {
@@ -91,12 +93,13 @@ static TwitterCache* _cache;
                           }
                           
                           
+                          [[NSNotificationCenter defaultCenter] postNotificationName:eTweetsUpdated object:nil];
+                          
                       }];
                  }
              }
          }];
     }
-    
 }
 
 - (id) init {

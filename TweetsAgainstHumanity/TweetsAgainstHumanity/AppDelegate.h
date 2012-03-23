@@ -17,6 +17,7 @@
 + (AppDelegate*) sharedDelegate;
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIViewController* rootViewController;
 
 - (void) changeToViewController:(UIViewController*)viewController;
 
