@@ -79,6 +79,8 @@ static TwitterCache* _cache;
                               if (results) {
                                   for (NSDictionary* tweet in results) {
                                       NSString* message = [tweet objectForKey:@"text"];
+                                      NSRegularExpression *gamecodes = [[NSRegularExpression alloc] initWithPattern:@"" options:NSRegularExpressionCaseInsensitive error:nil];
+                                                                   
                                       if ([message rangeOfString:@"#tah"].location != NSNotFound) {
                                           blackCards = message;
                                           NSLog(@"Message added %@", [message description]);
