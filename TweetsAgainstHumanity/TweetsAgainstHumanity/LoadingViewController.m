@@ -56,9 +56,8 @@
         
         [alertView show];
     } else {
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_startGame) name:eTweetsUpdated object:[TwitterCache sharedCache]];
-        [[TwitterCache sharedCache] refresh];
-        
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_startGame) name:eTweetsUpdated object:nil];
+        [TwitterCache sharedCache];
     }
 }
 
