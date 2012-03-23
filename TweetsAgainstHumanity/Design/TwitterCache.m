@@ -75,7 +75,7 @@ static TwitterCache* _cache;
     return _cache;
 }
 
-- (NSString*) tweetForCreateGame:(NSString*)blackCardText
+- (NSDictionary*) dataForCreateGame:(NSString*)blackCardText
 {
     int gameInd = rand() % 1000;
     int cardInd = [[GameParameters sharedParameters] getBlackCardInd:blackCardText];
@@ -88,7 +88,12 @@ static TwitterCache* _cache;
     
     NSString* string = [NSString stringWithFormat:@"#TAH #0%@%@ %@",gameId,cardId,response];
     
-    return string;
+    NSDictionary* data = [NSDictionary dictionaryWithObjectsAndKeys:
+                          string,@"TWEET",
+                          gameId,@"GAMEID",
+                          cardId,@"CARDID"
+                          , nil];
+    return data;
 }
 
 - (NSString*) tweetForWhiteCard:(WhiteCard*)whiteCard onBlackCard:(BlackCard*)blackCard

@@ -11,6 +11,7 @@
 #import "MainViewController.h"
 #import "AppDelegate.h"
 #import "TwitterCache.h"
+#import "GameCache.h"
 #import <Twitter/Twitter.h>
 
 @implementation LoadingViewController
@@ -46,6 +47,7 @@
 - (void) _loadingGame
 {
     [GameParameters sharedParameters];
+    [GameCache sharedCache];
     [self performSelectorOnMainThread:@selector(_finishGame) withObject:nil waitUntilDone:NO];
 }
 

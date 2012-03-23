@@ -11,6 +11,8 @@
 #import "GameParameters.h"
 #import "AppDelegate.h"
 
+#import "GameCache.h"
+
 #import <Twitter/Twitter.h>
 
 @implementation CreateGameViewController
@@ -51,12 +53,15 @@
 - (IBAction) send:(id)sender
 {
     TWTweetComposeViewController *twitter = [[TWTweetComposeViewController alloc] init];
-    NSString* tweetText = [[TwitterCache sharedCache] tweetForCreateGame:blackCard];
+    NSDictionary* gameData = [[TwitterCache sharedCache] dataForCreateGame:blackCard];
+    NSString* tweetText = [gameData objectForKey:@"TWEET"];
+    
     [twitter setInitialText:tweetText];
     [self presentModalViewController:twitter animated:YES];
     twitter.completionHandler = ^(TWTweetComposeViewControllerResult result) {
         // Dismiss the controller
         if (result == TWTweetComposeViewControllerResultDone) {
+            [[GameCache sharedCache] addSavedGame:gameData];
             [self  dismissModalViewControllerAnimated:NO];
             [[AppDelegate sharedDelegate].rootViewController dismissModalViewControllerAnimated:YES];
         } else {

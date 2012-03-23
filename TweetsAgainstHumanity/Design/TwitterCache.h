@@ -39,7 +39,7 @@ typedef NSString WhiteCard;
 
 - (void) refresh;
 
-- (NSString*) tweetForCreateGame:(NSString*)blackCardText;
+- (NSDictionary*) dataForCreateGame:(NSString*)blackCardText;
 
 - (NSString*) tweetForWhiteCard:(WhiteCard*)whiteCard onBlackCard:(BlackCard*)blackCard;
 

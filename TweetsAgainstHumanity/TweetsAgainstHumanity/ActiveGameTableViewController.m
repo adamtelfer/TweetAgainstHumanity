@@ -104,7 +104,7 @@
         card = [[TwitterCache sharedCache].blackCards objectAtIndex:indexPath.row];
     if (card == nil) card = [NSDictionary dictionary];
     
-    cell.imageView.image = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[card senderImage]]];
+    //cell.imageView.image = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[card senderImage]]];
     cell.textLabel.text = [card cardText];
     return cell;
 }
@@ -210,6 +210,7 @@
         return GETTEXT(@"FINISH");
     if (section == HELP_SECTION)
         return @" ";
+    return @"";
 }// fixed font style. use custom view (UILabel) if you want something different
 - (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
 {

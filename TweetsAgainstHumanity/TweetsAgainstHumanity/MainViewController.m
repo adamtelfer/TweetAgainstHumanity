@@ -35,7 +35,7 @@
 
 - (IBAction) refresh:(id)sender
 {
-    [[AppDelegate sharedDelegate] changeToViewController:[[LoadingViewController alloc] initWithNibName:@"LoadingViewController" bundle:nil]];
+    [[TwitterCache sharedCache] refresh];
 }
 
 #pragma mark - View lifecycle
