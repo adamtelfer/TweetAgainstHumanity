@@ -39,6 +39,8 @@ typedef NSString WhiteCard;
 
 - (void) refresh;
 
+- (NSString*) tweetForCreateGame:(NSString*)blackCardText;
+
 - (NSString*) tweetForWhiteCard:(WhiteCard*)whiteCard onBlackCard:(BlackCard*)blackCard;
 
 - (BOOL) isLoggedIn;

@@ -37,6 +37,8 @@
 		930F58D0151CD06E00D3594C /* NSDictionary+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F58CF151CD06E00D3594C /* NSDictionary+XMG.m */; };
 		930F58D8151CE8AA00D3594C /* ChooseWhiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930F58D6151CE8AA00D3594C /* ChooseWhiteViewController.m */; };
 		930F58D9151CE8AA00D3594C /* ChooseWhiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930F58D7151CE8AA00D3594C /* ChooseWhiteViewController.xib */; };
+		9318392E151D166E007E50BE /* CreateGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9318392C151D166E007E50BE /* CreateGameViewController.m */; };
+		9318392F151D166E007E50BE /* CreateGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9318392D151D166E007E50BE /* CreateGameViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,9 @@
 		930F58D5151CE8AA00D3594C /* ChooseWhiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseWhiteViewController.h; sourceTree = "<group>"; };
 		930F58D6151CE8AA00D3594C /* ChooseWhiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseWhiteViewController.m; sourceTree = "<group>"; };
 		930F58D7151CE8AA00D3594C /* ChooseWhiteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseWhiteViewController.xib; sourceTree = "<group>"; };
+		9318392B151D166E007E50BE /* CreateGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateGameViewController.h; sourceTree = "<group>"; };
+		9318392C151D166E007E50BE /* CreateGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateGameViewController.m; sourceTree = "<group>"; };
+		9318392D151D166E007E50BE /* CreateGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateGameViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +225,9 @@
 				930F58D5151CE8AA00D3594C /* ChooseWhiteViewController.h */,
 				930F58D6151CE8AA00D3594C /* ChooseWhiteViewController.m */,
 				930F58D7151CE8AA00D3594C /* ChooseWhiteViewController.xib */,
+				9318392B151D166E007E50BE /* CreateGameViewController.h */,
+				9318392C151D166E007E50BE /* CreateGameViewController.m */,
+				9318392D151D166E007E50BE /* CreateGameViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -326,6 +334,7 @@
 				930F57CE151BDBBF00D3594C /* MainViewController.xib in Resources */,
 				930F58CC151CCF5200D3594C /* text.plist in Resources */,
 				930F58D9151CE8AA00D3594C /* ChooseWhiteViewController.xib in Resources */,
+				9318392F151D166E007E50BE /* CreateGameViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +378,7 @@
 				930F58CA151CBBFD00D3594C /* ActiveGameTableViewController.m in Sources */,
 				930F58D0151CD06E00D3594C /* NSDictionary+XMG.m in Sources */,
 				930F58D8151CE8AA00D3594C /* ChooseWhiteViewController.m in Sources */,
+				9318392E151D166E007E50BE /* CreateGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

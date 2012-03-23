@@ -75,6 +75,16 @@ static TwitterCache* _cache;
     return _cache;
 }
 
+- (NSString*) tweetForCreateGame:(NSString*)blackCardText
+{
+    NSString* gameId = @"";
+    NSString* cardId = @"";
+    NSString* response = GETTEXT(@"SEND_BLACK_CARD");
+    NSString* string = [NSString stringWithFormat:@"#TAH #0%@%@ %@",gameId,cardId,response];
+    
+    return string;
+}
+
 - (NSString*) tweetForWhiteCard:(WhiteCard*)whiteCard onBlackCard:(BlackCard*)blackCard
 {
     NSDictionary* gameData = [blackCard gameId];
