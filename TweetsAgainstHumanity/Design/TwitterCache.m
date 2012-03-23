@@ -18,23 +18,45 @@ FIX_CATEGORY_BUG(NSDictionary_Card);
 
 -(NSString*) tweetText
 {
-    return @"Tweet";
+    return [self objectForKey:@"text"];
 }
 
 -(NSString*) cardText
 {
-    return @"_. That's how I want to die.";
+    NSDictionary* gameData = [self gameId];
+    NSString* cardId = [gameData objectForKey:@"CARDID"];
+    int cardInd = [cardId intValue];
+    NSString* cardText = [[GameParameters sharedParameters] getBlackCardForId:cardInd];
+    return cardText;
 
+}
+
+-(NSDictionary*) gameId
+{
+    NSString* message = [self objectForKey:@"text"];
+    
+    NSString* gameCode = [message substringWithRange:NSMakeRange(6, 7)];
+    NSString* playType = [gameCode substringWithRange:NSMakeRange(0,1)];
+    NSString* gameId = [gameCode substringWithRange:NSMakeRange(1,3)];
+    NSString* cardId = [gameCode substringWithRange:NSMakeRange(4,3)];
+    
+    NSDictionary* dict = [[NSDictionary alloc] initWithObjectsAndKeys:
+                          gameCode,@"GAMECODE",
+                          playType,@"PLAYTYPE",
+                          gameId,@"GAMEID",
+                          cardId,@"CARDID", nil];
+    
+    return dict;
 }
 
 -(NSURL*) senderImage
 {
-    return [NSURL URLWithString:@"https://twimg0-a.akamaihd.net/profile_images/518090158/good_normal.gif"];
+    return [NSURL URLWithString:[[self objectForKey:@"user"] objectForKey:@"profile_image_url"]];
 }
 
 -(NSString*) senderUsername
 {
-    return @"Username";
+    return [[self objectForKey:@"user"] objectForKey:@"screen_name"];
 }
 
 @end
@@ -119,17 +141,15 @@ static TwitterCache* _cache;
                               
                               // This will add black card messages upon refresh
                               if (results) {
+                                  NSMutableArray* newCards = [[NSMutableArray alloc] init];
                                   for (NSDictionary* tweet in results) {
                                       NSString* message = [tweet objectForKey:@"text"];
-                                      NSRegularExpression *gamecode = [[NSRegularExpression alloc] initWithPattern:@"" options:NSRegularExpressionCaseInsensitive error:nil];
-                                      NSLog(@"%@", gamecode);
-                                                                   
-                                      if ([message rangeOfString:@"#tah"].location != NSNotFound) {
-                                          blackCards = message;
-                                          NSLog(@"Message added %@", [message description]);
+                                      if ([message hasPrefix:@"#TAH #"] || [message hasPrefix:@"#tah #"]) {
+                                          //NSDictionary* gameData = [tweet gameId];
+                                          [newCards addObject:tweet];
                                       }
                                   }
-                                  blackCards = results;
+                                  blackCards = newCards;
                               }
                               else { 
                                   // Inspect the contents of jsonError
@@ -138,7 +158,7 @@ static TwitterCache* _cache;
                           }
                           
                           
-                          [[NSNotificationCenter defaultCenter] postNotificationName:eTweetsUpdated object:nil];
+                          [[NSNotificationCenter defaultCenter] postNotificationName:eTweetsUpdated object:self];
                           
                       }];
                  }

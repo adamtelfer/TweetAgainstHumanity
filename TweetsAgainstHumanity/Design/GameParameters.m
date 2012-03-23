@@ -40,6 +40,13 @@ static GameParameters* _parameters;
     int ind = rand() % [responses count];
     return [responses objectAtIndex:ind];
 }
+
+- (NSString*) getBlackCardForId:(int)ind
+{
+    if (ind < 0 || ind >= [categories count]) return [categories objectAtIndex:0];
+    return [categories objectAtIndex:ind];
+}
+
 - (NSString*) getRandomBlackCard:(int)seed
 {
     int ind = rand() % [categories count];

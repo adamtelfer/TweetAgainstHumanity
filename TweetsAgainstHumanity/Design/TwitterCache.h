@@ -15,6 +15,8 @@ typedef NSString WhiteCard;
 
 @interface NSDictionary (Card)
 
+- (NSDictionary*) gameId;
+
 -(NSString*) tweetText;
 -(NSString*) cardText;
 -(NSURL*) senderImage;

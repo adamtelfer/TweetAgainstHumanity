@@ -22,6 +22,26 @@
 
 @implementation ActiveGameTableViewController
 
+- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self)
+    {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeFromServer:) name:eTweetsUpdated object:[TwitterCache sharedCache]];
+    }
+    return self;
+}
+
+- (id) initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if (self)
+    {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeFromServer:) name:eTweetsUpdated object:[TwitterCache sharedCache]];
+    }
+    return self;
+}
+
 - (id) initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -47,11 +67,11 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     if (section == BLACK_SECTION)
-        return [[TwitterCache sharedCache].blackCards count] + 2;
+        return [[TwitterCache sharedCache].blackCards count];
     if (section == WHITE_SECTION)
-        return 2;
+        return 0;
     if (section == DONE_SECTION)
-        return 2;
+        return 0;
     if (section == HELP_SECTION)
         return 2;
 }
