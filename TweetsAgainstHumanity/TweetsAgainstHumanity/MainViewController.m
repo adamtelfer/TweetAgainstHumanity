@@ -43,7 +43,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view from its nib.
+    // Commented this out because I can't figure out how to set the text to white so it looks ugly - Brandon
+    
+        // UITableView* tableView = activeGameController.tableView;
+        // tableView.backgroundColor = [UIColor clearColor];
+        // tableView.opaque = NO;
+        // tableView.backgroundView = nil;
+    
+    
 }
 
 - (void)viewDidUnload
