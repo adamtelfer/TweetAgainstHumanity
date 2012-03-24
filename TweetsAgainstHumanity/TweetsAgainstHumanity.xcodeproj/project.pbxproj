@@ -21,6 +21,8 @@
 		10F4A89B151D38480029910E /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 10F4A890151D38480029910E /* icon-57.png */; };
 		10F4A89C151D38480029910E /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 10F4A891151D38480029910E /* white.png */; };
 		10F4A89D151D38480029910E /* white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10F4A892151D38480029910E /* white@2x.png */; };
+		10F4A8B1151E496A0029910E /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F4A8AF151E496A0029910E /* FriendViewController.m */; };
+		10F4A8B2151E496A0029910E /* FriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10F4A8B0151E496A0029910E /* FriendViewController.xib */; };
 		930F577C151BD35900D3594C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577B151BD35900D3594C /* UIKit.framework */; };
 		930F577E151BD35900D3594C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577D151BD35900D3594C /* Foundation.framework */; };
 		930F5780151BD35900D3594C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930F577F151BD35900D3594C /* CoreGraphics.framework */; };
@@ -79,6 +81,9 @@
 		10F4A890151D38480029910E /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
 		10F4A891151D38480029910E /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
 		10F4A892151D38480029910E /* white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white@2x.png"; sourceTree = "<group>"; };
+		10F4A8AE151E49690029910E /* FriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		10F4A8AF151E496A0029910E /* FriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		10F4A8B0151E496A0029910E /* FriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendViewController.xib; sourceTree = "<group>"; };
 		930F5777151BD35900D3594C /* TweetsAgainstHumanity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetsAgainstHumanity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930F577B151BD35900D3594C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		930F577D151BD35900D3594C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -275,6 +280,9 @@
 				9318392B151D166E007E50BE /* CreateGameViewController.h */,
 				9318392C151D166E007E50BE /* CreateGameViewController.m */,
 				9318392D151D166E007E50BE /* CreateGameViewController.xib */,
+				10F4A8AE151E49690029910E /* FriendViewController.h */,
+				10F4A8AF151E496A0029910E /* FriendViewController.m */,
+				10F4A8B0151E496A0029910E /* FriendViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -396,6 +404,7 @@
 				10F4A89B151D38480029910E /* icon-57.png in Resources */,
 				10F4A89C151D38480029910E /* white.png in Resources */,
 				10F4A89D151D38480029910E /* white@2x.png in Resources */,
+				10F4A8B2151E496A0029910E /* FriendViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +450,7 @@
 				930F58D8151CE8AA00D3594C /* ChooseWhiteViewController.m in Sources */,
 				9318392E151D166E007E50BE /* CreateGameViewController.m in Sources */,
 				93A34713151D38E000C4B70B /* GameCache.m in Sources */,
+				10F4A8B1151E496A0029910E /* FriendViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
