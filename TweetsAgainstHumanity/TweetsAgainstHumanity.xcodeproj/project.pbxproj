@@ -55,6 +55,10 @@
 		9318392F151D166E007E50BE /* CreateGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9318392D151D166E007E50BE /* CreateGameViewController.xib */; };
 		93A34713151D38E000C4B70B /* GameCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A34712151D38E000C4B70B /* GameCache.m */; };
 		93F7E8C2151FC35A00C8C5C1 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E8C1151FC35A00C8C5C1 /* ImageCache.m */; };
+		93F7E8CC151FC8FB00C8C5C1 /* FTAnimation+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E8C5151FC8FB00C8C5C1 /* FTAnimation+UIView.m */; };
+		93F7E8CD151FC8FB00C8C5C1 /* FTAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E8C8151FC8FB00C8C5C1 /* FTAnimationManager.m */; };
+		93F7E8CE151FC8FB00C8C5C1 /* FTUtils+NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E8CA151FC8FB00C8C5C1 /* FTUtils+NSObject.m */; };
+		93F7E8D0151FCA0E00C8C5C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F7E8CF151FCA0E00C8C5C1 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +138,15 @@
 		93A34712151D38E000C4B70B /* GameCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCache.m; sourceTree = "<group>"; };
 		93F7E8C0151FC35A00C8C5C1 /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
 		93F7E8C1151FC35A00C8C5C1 /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		93F7E8C4151FC8FB00C8C5C1 /* FTAnimation+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTAnimation+UIView.h"; sourceTree = "<group>"; };
+		93F7E8C5151FC8FB00C8C5C1 /* FTAnimation+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FTAnimation+UIView.m"; sourceTree = "<group>"; };
+		93F7E8C6151FC8FB00C8C5C1 /* FTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAnimation.h; sourceTree = "<group>"; };
+		93F7E8C7151FC8FB00C8C5C1 /* FTAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAnimationManager.h; sourceTree = "<group>"; };
+		93F7E8C8151FC8FB00C8C5C1 /* FTAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAnimationManager.m; sourceTree = "<group>"; };
+		93F7E8C9151FC8FB00C8C5C1 /* FTUtils+NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTUtils+NSObject.h"; sourceTree = "<group>"; };
+		93F7E8CA151FC8FB00C8C5C1 /* FTUtils+NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FTUtils+NSObject.m"; sourceTree = "<group>"; };
+		93F7E8CB151FC8FB00C8C5C1 /* FTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTUtils.h; sourceTree = "<group>"; };
+		93F7E8CF151FCA0E00C8C5C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F7E8D0151FCA0E00C8C5C1 /* QuartzCore.framework in Frameworks */,
 				108F6115151CBC69004613B7 /* Accounts.framework in Frameworks */,
 				930F58C7151BEB6A00D3594C /* libxml2.dylib in Frameworks */,
 				930F57D4151BDF5300D3594C /* Twitter.framework in Frameworks */,
@@ -184,6 +198,7 @@
 		930F576C151BD35900D3594C = {
 			isa = PBXGroup;
 			children = (
+				93F7E8CF151FCA0E00C8C5C1 /* QuartzCore.framework */,
 				10274EE6151D25BC0092B238 /* icon-114.png */,
 				10274EE3151D25B80092B238 /* icon-57.png */,
 				108F6114151CBC69004613B7 /* Accounts.framework */,
@@ -221,6 +236,7 @@
 		930F5781151BD35900D3594C /* TweetsAgainstHumanity */ = {
 			isa = PBXGroup;
 			children = (
+				93F7E8C3151FC8FB00C8C5C1 /* FTAnimation */,
 				10F4A887151D38480029910E /* Assets */,
 				930F58D1151CD0E400D3594C /* Category.h */,
 				930F58CE151CD06E00D3594C /* NSDictionary+XMG.h */,
@@ -314,6 +330,21 @@
 			);
 			name = Models;
 			path = ../Design;
+			sourceTree = "<group>";
+		};
+		93F7E8C3151FC8FB00C8C5C1 /* FTAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				93F7E8C4151FC8FB00C8C5C1 /* FTAnimation+UIView.h */,
+				93F7E8C5151FC8FB00C8C5C1 /* FTAnimation+UIView.m */,
+				93F7E8C6151FC8FB00C8C5C1 /* FTAnimation.h */,
+				93F7E8C7151FC8FB00C8C5C1 /* FTAnimationManager.h */,
+				93F7E8C8151FC8FB00C8C5C1 /* FTAnimationManager.m */,
+				93F7E8C9151FC8FB00C8C5C1 /* FTUtils+NSObject.h */,
+				93F7E8CA151FC8FB00C8C5C1 /* FTUtils+NSObject.m */,
+				93F7E8CB151FC8FB00C8C5C1 /* FTUtils.h */,
+			);
+			path = FTAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,6 +488,9 @@
 				93A34713151D38E000C4B70B /* GameCache.m in Sources */,
 				10F4A8B1151E496A0029910E /* FriendViewController.m in Sources */,
 				93F7E8C2151FC35A00C8C5C1 /* ImageCache.m in Sources */,
+				93F7E8CC151FC8FB00C8C5C1 /* FTAnimation+UIView.m in Sources */,
+				93F7E8CD151FC8FB00C8C5C1 /* FTAnimationManager.m in Sources */,
+				93F7E8CE151FC8FB00C8C5C1 /* FTUtils+NSObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

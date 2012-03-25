@@ -61,7 +61,7 @@ static GameParameters* _parameters;
 
 - (NSString*) getRandomWhiteCard:(int)seed
 {
-    int ind = rand() % [responses count];
+    int ind = arc4random() % [responses count];
     return [responses objectAtIndex:ind];
 }
 
@@ -73,7 +73,8 @@ static GameParameters* _parameters;
 
 - (NSString*) getRandomBlackCard:(int)seed
 {
-    int ind = rand() % [categories count];
+    NSLog(@"%d",[categories count]);
+    int ind = arc4random() % [categories count];
     return [categories objectAtIndex:ind];
 }
 
@@ -82,7 +83,7 @@ static GameParameters* _parameters;
     NSObject* obj = [self.gameText objectForKey:key];
 	if ([obj isKindOfClass:[NSArray class]]) {
 		NSArray* arr = (NSArray*)obj;
-		int ind = rand() % [arr count];
+		int ind = arc4random() % [arr count];
 		return [arr objectAtIndex:ind];
 	} else {
 		return obj;

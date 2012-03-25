@@ -14,6 +14,8 @@
 #import "GameCache.h"
 #import "FriendViewController.h"
 
+#import "FTAnimation.h"
+
 #import <Twitter/Twitter.h>
 
 @implementation CreateGameViewController
@@ -43,11 +45,17 @@
 
 #pragma mark - View lifecycle
 
+- (void) randomWhiteCard {
+    whiteCardLabel.text = [[GameParameters sharedParameters] getRandomWhiteCard:0];
+}
+
 - (void) randomBlackCard {
     blackCard = [[GameParameters sharedParameters] getRandomBlackCard:0];
-    blackCardLabel.text = blackCard;
+    NSString* formattedString = blackCard;
+    formattedString = [formattedString stringByReplacingOccurrencesOfString:@"_" withString:@"__________"];
+    blackCardLabel.text = formattedString;
     
-    whiteCardLabel.text = [[GameParameters sharedParameters] getRandomWhiteCard:0];
+    [self randomWhiteCard];
 }
 
 - (IBAction) refresh:(id)sender
@@ -72,6 +80,7 @@
         // Dismiss the controller
         if (result == TWTweetComposeViewControllerResultDone) {
             [[GameCache sharedCache] addSavedGame:gameData];
+            [[TwitterCache sharedCache] backgroundRefresh];
             [self  dismissModalViewControllerAnimated:NO];
             [[AppDelegate sharedDelegate].rootViewController dismissModalViewControllerAnimated:YES];
         } else {

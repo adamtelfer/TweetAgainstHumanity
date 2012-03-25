@@ -37,6 +37,7 @@ typedef NSString WhiteCard;
 
 + (TwitterCache*) sharedCache;
 
+- (void) backgroundRefresh;
 - (void) refresh;
 
 - (NSDictionary*) dataForCreateGame:(NSString*)blackCardText;

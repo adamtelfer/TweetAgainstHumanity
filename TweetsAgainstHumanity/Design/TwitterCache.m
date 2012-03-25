@@ -10,7 +10,7 @@
 #import <Twitter/Twitter.h>
 #import <Accounts/Accounts.h>
 #import "GameParameters.h"
-
+#import "GameCache.h"
 
 FIX_CATEGORY_BUG(NSDictionary_Card);
 
@@ -119,6 +119,11 @@ static TwitterCache* _cache;
 }
                       
 
+- (void) backgroundRefresh
+{
+    [self performSelectorInBackground:@selector(refresh) withObject:nil];
+}
+
 - (void) refresh 
 {
     if ([TWTweetComposeViewController canSendTweet]) 
@@ -186,6 +191,13 @@ static TwitterCache* _cache;
                               }
                           }
                           
+                          // Get all the current games
+                          NSMutableArray* m = [[NSMutableArray alloc] initWithCapacity:[[GameCache sharedCache].savedGames count]];
+                          for (NSDictionary* game in [GameCache sharedCache].savedGames) {
+                              NSLog(@"%@",[game description]);
+                              [m addObject:game];
+                          }
+                          myGames = m;
                           
                           [[NSNotificationCenter defaultCenter] postNotificationName:eTweetsUpdated object:self];
                           
