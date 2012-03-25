@@ -11,10 +11,6 @@
 #import <Accounts/Accounts.h>
 #import "GameParameters.h"
 
-@interface FriendViewController ()
-
-@end
-
 @implementation FriendViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -24,13 +20,6 @@
         // Custom initialization
     }
     return self;
-}
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    [self loadFriends];
-    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)viewDidUnload
@@ -147,6 +136,13 @@
          }];
     }
 
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [self loadFriends];
+    // Do any additional setup after loading the view from its nib.
 }
 
 @end

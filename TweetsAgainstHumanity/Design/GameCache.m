@@ -28,9 +28,10 @@ static GameCache* _cache;
         NSArray* oldGames = [NSArray arrayWithContentsOfFile:fullPath];
         [savedGames addObjectsFromArray:oldGames];
         
+        NSLog(@"Saved Games : %@", [savedGames description]);
+        NSLog(@"");
     }
     return self;
-    
 }
 
 - (void) addSavedGame:(NSDictionary*)blackCard

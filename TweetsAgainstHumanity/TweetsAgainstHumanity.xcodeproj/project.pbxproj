@@ -54,6 +54,7 @@
 		9318392E151D166E007E50BE /* CreateGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9318392C151D166E007E50BE /* CreateGameViewController.m */; };
 		9318392F151D166E007E50BE /* CreateGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9318392D151D166E007E50BE /* CreateGameViewController.xib */; };
 		93A34713151D38E000C4B70B /* GameCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A34712151D38E000C4B70B /* GameCache.m */; };
+		93F7E8C2151FC35A00C8C5C1 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E8C1151FC35A00C8C5C1 /* ImageCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +132,8 @@
 		9318392D151D166E007E50BE /* CreateGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateGameViewController.xib; sourceTree = "<group>"; };
 		93A34711151D38E000C4B70B /* GameCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCache.h; sourceTree = "<group>"; };
 		93A34712151D38E000C4B70B /* GameCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCache.m; sourceTree = "<group>"; };
+		93F7E8C0151FC35A00C8C5C1 /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		93F7E8C1151FC35A00C8C5C1 /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +303,8 @@
 		930F57CF151BDDBD00D3594C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				93F7E8C0151FC35A00C8C5C1 /* ImageCache.h */,
+				93F7E8C1151FC35A00C8C5C1 /* ImageCache.m */,
 				93A34711151D38E000C4B70B /* GameCache.h */,
 				93A34712151D38E000C4B70B /* GameCache.m */,
 				930F57C7151BD8A200D3594C /* GameParameters.h */,
@@ -451,6 +456,7 @@
 				9318392E151D166E007E50BE /* CreateGameViewController.m in Sources */,
 				93A34713151D38E000C4B70B /* GameCache.m in Sources */,
 				10F4A8B1151E496A0029910E /* FriendViewController.m in Sources */,
+				93F7E8C2151FC35A00C8C5C1 /* ImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

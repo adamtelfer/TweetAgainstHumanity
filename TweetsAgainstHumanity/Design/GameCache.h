@@ -14,6 +14,7 @@
 }
 
 @property (readonly) NSMutableArray* savedGames;
+
 - (void) addSavedGame:(NSDictionary*)blackCard;
 + (GameCache*) sharedCache;
 @end

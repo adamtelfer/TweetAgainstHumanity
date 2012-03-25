@@ -27,12 +27,12 @@ typedef NSString WhiteCard;
 @interface TwitterCache : NSObject
 {
     NSArray* blackCards;
-    NSArray* whiteCards;
+    NSArray* myGames;
     NSArray* doneCards;
 }
 
 @property (readonly) NSArray* blackCards;
-@property (readonly) NSArray* whiteCards;
+@property (readonly) NSArray* myGames;
 @property (readonly) NSArray* doneCards;
 
 + (TwitterCache*) sharedCache;

@@ -66,7 +66,7 @@ FIX_CATEGORY_BUG(NSDictionary_Card);
 
 @implementation TwitterCache
 
-@synthesize blackCards, whiteCards, doneCards;
+@synthesize blackCards, myGames, doneCards;
 
 static TwitterCache* _cache;
 
@@ -166,12 +166,6 @@ static TwitterCache* _cache;
                               NSArray *results = [NSJSONSerialization JSONObjectWithData:responseData 
                                                                                        options:NSJSONReadingMutableLeaves 
                                                                                          error:&jsonError];
-                    //Get the Latest Trends
-                    TWRequest *getTrends = [[TWRequest alloc] initWithURL:
-                    [NSURL URLWithString:@"http://api.twitter.com/1/trends.json"] 
-                        parameters:nil requestMethod:TWRequestMethodGET];
-                              [getTrends setAccount:acct];
-                              NSLog(@"TRENDS BITCHES%@", [getTrends description]);
                               
                               
                               // This will add black card messages upon refresh

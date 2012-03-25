@@ -11,6 +11,7 @@
 #import "GameParameters.h"
 #import "ChooseWhiteViewController.h"
 #import "CreateGameViewController.h"
+#import "ImageCache.h"
 
 #import "AppDelegate.h"
 
@@ -70,7 +71,7 @@
     if (section == BLACK_SECTION)
         return [[TwitterCache sharedCache].blackCards count];
     if (section == WHITE_SECTION)
-        return [[TwitterCache sharedCache].whiteCards count] + 1;
+        return [[TwitterCache sharedCache].myGames count] + 1;
     if (section == DONE_SECTION)
         return 0;
     if (section == HELP_SECTION)
@@ -87,7 +88,7 @@
     int row = indexPath.row;
     
     UITableViewCell* cell = nil;
-    if (row >= [[TwitterCache sharedCache].whiteCards count]) {
+    if (row >= [[TwitterCache sharedCache].myGames count]) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
         cell.textLabel.text = @"Create Game";
         return cell;
@@ -104,7 +105,7 @@
         card = [[TwitterCache sharedCache].blackCards objectAtIndex:indexPath.row];
     if (card == nil) card = [NSDictionary dictionary];
     
-    //cell.imageView.image = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[card senderImage]]];
+    cell.imageView.image = [[ImageCache sharedCache] imageForURL:[card senderImage]];
     cell.textLabel.text = [card cardText];
     return cell;
 }
