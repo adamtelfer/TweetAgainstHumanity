@@ -10,4 +10,8 @@
 
 @interface FriendViewController : UIViewController
 
+
+
+- (IBAction) cancel:(id)sender;
+
 @end

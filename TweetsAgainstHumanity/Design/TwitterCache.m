@@ -117,11 +117,6 @@ static TwitterCache* _cache;
 - (BOOL) isLoggedIn {
     return [TWTweetComposeViewController canSendTweet];
 }
-
-
-- (NSArray*) getFriends {
-    
-}
                       
 
 - (void) refresh 

@@ -12,6 +12,7 @@
 #import "AppDelegate.h"
 
 #import "GameCache.h"
+#import "FriendViewController.h"
 
 #import <Twitter/Twitter.h>
 
@@ -26,6 +27,10 @@
         // Custom initialization
     }
     return self;
+}
+
+- (void) dealloc{
+    friendController = nil;
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,6 +55,11 @@
     [self randomBlackCard];
 }
 
+- (IBAction) addFriend:(id)sender
+{
+    friendController = [[FriendViewController alloc] initWithNibName:@"FriendViewController" bundle:nil];
+    [self.view addSubview:friendController.view];
+}
 - (IBAction) send:(id)sender
 {
     TWTweetComposeViewController *twitter = [[TWTweetComposeViewController alloc] init];

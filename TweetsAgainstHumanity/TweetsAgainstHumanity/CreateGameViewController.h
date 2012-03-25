@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FriendViewController.h"
 
 @interface CreateGameViewController : UIViewController {
     NSString* blackCard;
+    FriendViewController* friendController;
 }
+
 
 @property (strong) IBOutlet UILabel* whiteCardLabel;
 @property (strong) IBOutlet UILabel* blackCardLabel;
@@ -20,5 +23,7 @@
 - (IBAction) send:(id)sender;
 
 - (IBAction) cancel:(id)sender;
+
+- (IBAction) addFriend:(id)sender;
 
 @end
