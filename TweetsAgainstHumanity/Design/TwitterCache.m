@@ -66,7 +66,7 @@ FIX_CATEGORY_BUG(NSDictionary_Card);
 
 @implementation TwitterCache
 
-@synthesize blackCards, myGames, doneCards;
+@synthesize blackCards, myGames, doneCards, trendingTopics;
 
 static TwitterCache* _cache;
 
@@ -109,7 +109,7 @@ static TwitterCache* _cache;
     NSString* response = GETTEXT(@"SEND_WHITE_CARD");
     // need to define and cache black player
     NSString* black_player = [blackCard senderUsername];
-    NSString* string = [NSString stringWithFormat:@"#TAH #1%@%03d \@%@ %@", gameId,whiteCardInd,black_player,response];
+    NSString* string = [NSString stringWithFormat:@"#TAH #1%@%03d @%@ %@", gameId,whiteCardInd,black_player,response];
     
     return string;
 }

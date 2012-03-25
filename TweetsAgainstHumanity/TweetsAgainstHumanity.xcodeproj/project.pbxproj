@@ -59,6 +59,8 @@
 		93F7E8CD151FC8FB00C8C5C1 /* FTAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E8C8151FC8FB00C8C5C1 /* FTAnimationManager.m */; };
 		93F7E8CE151FC8FB00C8C5C1 /* FTUtils+NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E8CA151FC8FB00C8C5C1 /* FTUtils+NSObject.m */; };
 		93F7E8D0151FCA0E00C8C5C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F7E8CF151FCA0E00C8C5C1 /* QuartzCore.framework */; };
+		93F7E8D4151FD03900C8C5C1 /* GameStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E8D2151FD03800C8C5C1 /* GameStatusViewController.m */; };
+		93F7E8D5151FD03900C8C5C1 /* GameStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F7E8D3151FD03800C8C5C1 /* GameStatusViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +149,9 @@
 		93F7E8CA151FC8FB00C8C5C1 /* FTUtils+NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FTUtils+NSObject.m"; sourceTree = "<group>"; };
 		93F7E8CB151FC8FB00C8C5C1 /* FTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTUtils.h; sourceTree = "<group>"; };
 		93F7E8CF151FCA0E00C8C5C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		93F7E8D1151FD03800C8C5C1 /* GameStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStatusViewController.h; sourceTree = "<group>"; };
+		93F7E8D2151FD03800C8C5C1 /* GameStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStatusViewController.m; sourceTree = "<group>"; };
+		93F7E8D3151FD03800C8C5C1 /* GameStatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameStatusViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +307,9 @@
 				10F4A8AE151E49690029910E /* FriendViewController.h */,
 				10F4A8AF151E496A0029910E /* FriendViewController.m */,
 				10F4A8B0151E496A0029910E /* FriendViewController.xib */,
+				93F7E8D1151FD03800C8C5C1 /* GameStatusViewController.h */,
+				93F7E8D2151FD03800C8C5C1 /* GameStatusViewController.m */,
+				93F7E8D3151FD03800C8C5C1 /* GameStatusViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -441,6 +449,7 @@
 				10F4A89C151D38480029910E /* white.png in Resources */,
 				10F4A89D151D38480029910E /* white@2x.png in Resources */,
 				10F4A8B2151E496A0029910E /* FriendViewController.xib in Resources */,
+				93F7E8D5151FD03900C8C5C1 /* GameStatusViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +500,7 @@
 				93F7E8CC151FC8FB00C8C5C1 /* FTAnimation+UIView.m in Sources */,
 				93F7E8CD151FC8FB00C8C5C1 /* FTAnimationManager.m in Sources */,
 				93F7E8CE151FC8FB00C8C5C1 /* FTUtils+NSObject.m in Sources */,
+				93F7E8D4151FD03900C8C5C1 /* GameStatusViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

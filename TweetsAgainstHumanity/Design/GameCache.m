@@ -14,6 +14,11 @@
 
 static GameCache* _cache;
 
+- (NSString*) generateGameId
+{
+    return @"000";
+}
+
 + (GameCache*) sharedCache
 {
     if (_cache == nil) _cache = [[GameCache alloc] init];
@@ -24,6 +29,8 @@ static GameCache* _cache;
     self = [super init];
     if (self) {
         savedGames = [[NSMutableArray alloc] init];
+        
+        
         NSString *fullPath = [NSBundle pathForResource:@"savedgames" ofType:@"plist" inDirectory:[NSHomeDirectory() stringByAppendingString:@"/Documents/"]];
         NSArray* oldGames = [NSArray arrayWithContentsOfFile:fullPath];
         [savedGames addObjectsFromArray:oldGames];
@@ -37,8 +44,10 @@ static GameCache* _cache;
 - (void) addSavedGame:(NSDictionary*)blackCard
 {
     [savedGames addObject:blackCard];
-    NSString *fullPath = [NSBundle pathForResource:@"savedgames" ofType:@"plist" inDirectory:[NSHomeDirectory() stringByAppendingString:@"/Documents/"]];
-    [savedGames writeToFile:fullPath atomically:YES];
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); //1
+    NSString *documentsDirectory = [paths objectAtIndex:0]; //2
+    NSString *path = [documentsDirectory stringByAppendingPathComponent:@"savedgames.plist"]; //3
+    [savedGames writeToFile:path atomically:YES];
 }
 
 

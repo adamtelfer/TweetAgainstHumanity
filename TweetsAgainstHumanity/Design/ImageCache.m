@@ -32,7 +32,8 @@ static ImageCache* _cache = nil;
     UIImage* image = [images objectForKey:url];
     if (image == nil) {
         image = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:url]];
-        [images setObject:image forKey:url];
+        if (image)
+            [images setObject:image forKey:url];
     }
     return image;
 }

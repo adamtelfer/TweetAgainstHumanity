@@ -94,6 +94,17 @@
         return cell;
     } else {
         
+        NSDictionary* game = [[TwitterCache sharedCache].myGames objectAtIndex:row];
+        
+        NSString* gameId = [game objectForKey:@"GAMEID"];
+        NSString* cardId = [game objectForKey:@"CARDID"];
+        
+        NSString* cardText = [[GameParameters sharedParameters] getBlackCardForId:[cardId intValue]];
+        
+        
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
+        cell.textLabel.text = [NSString stringWithFormat:@"%@ : %@",gameId,cardText];
+        return cell;
     }
 }
 
@@ -167,6 +178,12 @@
     [[AppDelegate sharedDelegate].rootViewController presentModalViewController:viewController animated:YES];
 }
 
+- (void) gameStatus:(int)row
+{
+    NSDictionary* gameData = [[[TwitterCache sharedCache] myGames] objectAtIndex:row];
+    NSLog(@"%@",[gameData description]);
+}
+
 - (void) createGame
 {
     CreateGameViewController* viewController = [[CreateGameViewController alloc] initWithNibName:@"CreateGameViewController" bundle:nil];
@@ -181,7 +198,10 @@
         NSDictionary* card = [[TwitterCache sharedCache].blackCards objectAtIndex:row];
         [self startGameWithBlackCard:card];
     } else if (section == WHITE_SECTION) { 
-        [self createGame];
+        if (row >= [[TwitterCache sharedCache].myGames count])
+            [self createGame];
+        else
+            [self gameStatus:row];
     } else if (section == HELP_SECTION) {
         if (row == 0) {
             [self askForHelp];

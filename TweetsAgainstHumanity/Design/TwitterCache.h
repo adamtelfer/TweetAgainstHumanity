@@ -29,11 +29,15 @@ typedef NSString WhiteCard;
     NSArray* blackCards;
     NSArray* myGames;
     NSArray* doneCards;
+    
+    
 }
 
 @property (readonly) NSArray* blackCards;
 @property (readonly) NSArray* myGames;
 @property (readonly) NSArray* doneCards;
+
+@property (strong) NSArray* trendingTopics;
 
 + (TwitterCache*) sharedCache;
 
