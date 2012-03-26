@@ -119,6 +119,20 @@
                                       TWRequest *getRequest = [[TWRequest alloc] initWithURL:
                                                                [NSURL URLWithString:(url)] 
                                                                                   parameters:nil requestMethod:TWRequestMethodGET];
+                                      
+                                      [getRequest performRequestWithHandler:^(NSData *responseData, NSHTTPURLResponse *urlResponse, NSError *error) 
+                                       {
+                                           
+                                           NSLog(@"Got Friend Names");
+                                           
+                                           NSError *jsonError;
+                                           NSDictionary *results = [NSJSONSerialization JSONObjectWithData:responseData 
+                                                                                                   options:NSJSONReadingMutableLeaves 
+                                                                                                     error:&jsonError];
+                                           
+                                           
+                                           NSLog(@"%@",[results description]);
+                                       }];
                                   }
                                  // Need to pass this through JSON stuff then put it into the tableview.                                       
                                   
