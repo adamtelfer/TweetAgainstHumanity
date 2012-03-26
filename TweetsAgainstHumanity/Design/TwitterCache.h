@@ -28,6 +28,7 @@ typedef NSString WhiteCard;
 {
     NSArray* blackCards;
     NSArray* myGames;
+    NSDictionary* whiteCards;
     NSArray* doneCards;
     
     
@@ -36,6 +37,8 @@ typedef NSString WhiteCard;
 @property (readonly) NSArray* blackCards;
 @property (readonly) NSArray* myGames;
 @property (readonly) NSArray* doneCards;
+@property (readonly) NSDictionary* whiteCards;
+
 
 @property (strong) NSArray* trendingTopics;
 

@@ -67,6 +67,7 @@ FIX_CATEGORY_BUG(NSDictionary_Card);
 @implementation TwitterCache
 
 @synthesize blackCards, myGames, doneCards, trendingTopics;
+@synthesize whiteCards;
 
 static TwitterCache* _cache;
 
@@ -79,7 +80,7 @@ static TwitterCache* _cache;
 
 - (NSDictionary*) dataForCreateGame:(NSString*)blackCardText
 {
-    int gameInd = rand() % 1000;
+    int gameInd = arc4random() % 1000;
     int cardInd = [[GameParameters sharedParameters] getBlackCardInd:blackCardText];
     
     NSString* gameId = [NSString stringWithFormat:@"%03d",gameInd];
@@ -176,14 +177,41 @@ static TwitterCache* _cache;
                               // This will add black card messages upon refresh
                               if (results) {
                                   NSMutableArray* newCards = [[NSMutableArray alloc] init];
+                                  NSMutableDictionary* newWhiteCards = [[NSMutableDictionary alloc] init];
                                   for (NSDictionary* tweet in results) {
                                       NSString* message = [tweet objectForKey:@"text"];
-                                      if ([message hasPrefix:@"#TAH #"] || [message hasPrefix:@"#tah #"]) {
-                                          //NSDictionary* gameData = [tweet gameId];
-                                          [newCards addObject:tweet];
+                                      
+                                      if ([message hasPrefix:@"#TAH"]) {
+                                          // black cards
+                                          if ([message hasPrefix:@"#TAH #0"]) {
+                                              [newCards addObject:tweet];
+                                          // white cards
+                                          } else if ([message hasPrefix:@"#TAH #1"]) {
+                                              NSDictionary* gameData = [tweet gameId];
+                                              NSString* gameId = [gameData objectForKey:@"GAMEID"];
+                                              // new game
+                                              if ([newWhiteCards objectForKey:gameId] == nil) {
+                                                  NSMutableArray* array = [[NSMutableArray alloc] init];
+                                                  [array addObject:tweet];
+                                                  [newWhiteCards setObject:array forKey:gameId];
+                                              // old game
+                                              } else {
+                                                  NSMutableArray* array = [newWhiteCards objectForKey:gameId];
+                                                  [array addObject:tweet];
+                                                  [newWhiteCards setObject:array forKey:gameId];
+                                              }
+                                          // end game cards
+                                          } else if ([message hasPrefix:@"#TAH #2"]) {
+                                              
+                                          }
                                       }
                                   }
                                   blackCards = newCards;
+                                  whiteCards = newWhiteCards;
+                                  for (NSString* gameId in [newWhiteCards allKeys]) {
+                                      NSLog(@"GAME %@ : %d Responses",gameId,[[newWhiteCards objectForKey:gameId] count]);
+                                  }
+                                  NSLog(@"");
                               }
                               else { 
                                   // Inspect the contents of jsonError

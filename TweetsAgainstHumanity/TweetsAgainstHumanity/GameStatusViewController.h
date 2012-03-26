@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface GameStatusViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+{
+    NSArray* twitterResponses;
+}
+
+@property (strong) NSDictionary* gameData;
 
 @property (strong) IBOutlet UINavigationBar* navBar;
 @property (strong) IBOutlet UILabel* blackCard;

@@ -59,6 +59,12 @@ static GameParameters* _parameters;
     return 0;
 }
 
+- (NSString*) getWhiteCardForId:(int)ind
+{
+    if (ind < 0 || ind >= [responses count]) return [responses objectAtIndex:0];
+    return [responses objectAtIndex:ind];
+}
+
 - (NSString*) getRandomWhiteCard:(int)seed
 {
     int ind = arc4random() % [responses count];
@@ -86,7 +92,7 @@ static GameParameters* _parameters;
 		int ind = arc4random() % [arr count];
 		return [arr objectAtIndex:ind];
 	} else {
-		return obj;
+		return (NSString*)obj;
 	}
 }
 

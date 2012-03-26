@@ -12,6 +12,7 @@
 #import "ChooseWhiteViewController.h"
 #import "CreateGameViewController.h"
 #import "ImageCache.h"
+#import "GameStatusViewController.h"
 
 #import "AppDelegate.h"
 
@@ -181,7 +182,10 @@
 - (void) gameStatus:(int)row
 {
     NSDictionary* gameData = [[[TwitterCache sharedCache] myGames] objectAtIndex:row];
-    NSLog(@"%@",[gameData description]);
+    
+    GameStatusViewController* viewController = [[GameStatusViewController alloc] initWithNibName:@"GameStatusViewController" bundle:nil];
+    viewController.gameData = gameData;
+    [[AppDelegate sharedDelegate].rootViewController presentModalViewController:viewController animated:YES];
 }
 
 - (void) createGame

@@ -23,6 +23,7 @@
 - (int) getWhiteCardInd:(NSString*)card;
 - (int) getBlackCardInd:(NSString*)card;
 
+- (NSString*) getWhiteCardForId:(int)ind;
 - (NSString*) getBlackCardForId:(int)ind;
 
 - (NSString*) getRandomWhiteCard:(int)seed;
