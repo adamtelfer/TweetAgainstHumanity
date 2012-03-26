@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FriendViewController : UIViewController
+@interface FriendViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
+    NSArray* friendArray;
+}
 
-
+@property (strong) IBOutlet UITableView* tableView;
 
 - (IBAction) cancel:(id)sender;
 
