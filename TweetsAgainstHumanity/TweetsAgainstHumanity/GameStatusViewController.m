@@ -40,10 +40,16 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSDictionary* tweet = [twitterResponses objectAtIndex:indexPath.row];
-    
+    NSDictionary* user =[tweet objectForKey:@"user"];
+    NSString* username = [user objectForKey:@"screen_name"];
     TWTweetComposeViewController *twitter = [[TWTweetComposeViewController alloc] init];
+    NSString* gameId = [gameData objectForKey:@"GAMEID"];
+    NSDictionary* tweetData = [tweet gameId];
+    NSString* cardId = [tweetData objectForKey:@"CARDID"];
     
-    NSString* tweetText = @"#TAH #2000000 @username Won!";//[[TwitterCache sharedCache] tweetForFinishGame:tweet onBlackCard:gameData];
+    NSString* tweetText = [NSString stringWithFormat:@"#TAH #2%@%@ @%@ Won!",gameId,cardId,username];
+    
+    //[[TwitterCache sharedCache] tweetForFinishGame:tweet onBlackCard:gameData];
     [twitter setInitialText:tweetText];
     
     UITableViewCell* tableCell = [tableView cellForRowAtIndexPath:indexPath];
