@@ -13,6 +13,8 @@
 
 @implementation FriendViewController
 
+@synthesize tableView;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -40,6 +42,7 @@
 
 
 // We can move this to the twitter cache - just wasn't sure how to reference a function in another ViewController
+
 - (void)loadFriends {
     if ([TWTweetComposeViewController canSendTweet]) 
     {
@@ -132,9 +135,24 @@
                                            
                                            
                                            NSLog(@"%@",[results description]);
+                                           
+                                 // Add your friends screennames to an array
+                                        
+                                           NSMutableArray* friendList = [[NSMutableArray alloc] init];
+                                        
+                                           for (NSDictionary* friends in results){
+                                               
+                                               [friendList addObject:[friends objectForKey:@"screen_name"]];
+                                               NSLog(@"%@", friendList);
+                                           }
+                                           
+                                            friendArray = friendList;
+                                            [tableView reloadData];
+                                       
                                        }];
-                                  }
-                                 // Need to pass this through JSON stuff then put it into the tableview.                                       
+                                      
+                                      
+                                  }                                      
                                   
                               }
                               
@@ -150,6 +168,18 @@
          }];
     }
 
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [friendArray count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell* tableCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
+    tableCell.textLabel.text = [friendArray objectAtIndex:indexPath.row];
+    return tableCell;
 }
 
 - (void)viewDidLoad
