@@ -88,6 +88,9 @@
         NSString* cardId = [tweetData objectForKey:@"CARDID"];
         NSString* cardText = [[GameParameters sharedParameters] getWhiteCardForId:[cardId intValue]];
         
+        tableCell.textLabel.lineBreakMode = UILineBreakModeWordWrap;
+        tableCell.textLabel.numberOfLines = 2;
+        tableCell.textLabel.font = [UIFont boldSystemFontOfSize:14];
         tableCell.textLabel.text = [NSString stringWithFormat:@"@%@ : %@",
                                     [tweet senderUsername],
                                     cardText];

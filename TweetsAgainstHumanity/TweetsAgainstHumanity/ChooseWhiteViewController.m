@@ -90,7 +90,12 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+
     UITableViewCell* tableCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
+    
+    tableCell.textLabel.lineBreakMode = UILineBreakModeWordWrap;
+    tableCell.textLabel.numberOfLines = 2;
+    tableCell.textLabel.font = [UIFont boldSystemFontOfSize:14];
     tableCell.textLabel.text = [whiteCards objectAtIndex:indexPath.row];
     return tableCell;
 }
