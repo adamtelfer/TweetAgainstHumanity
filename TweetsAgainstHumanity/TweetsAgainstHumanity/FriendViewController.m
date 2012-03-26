@@ -178,7 +178,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell* tableCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
-    tableCell.textLabel.text = [friendArray objectAtIndex:indexPath.row];
+    NSString* friend = [friendArray objectAtIndex:indexPath.row];
+    tableCell.textLabel.text = friend;
     return tableCell;
 }
 

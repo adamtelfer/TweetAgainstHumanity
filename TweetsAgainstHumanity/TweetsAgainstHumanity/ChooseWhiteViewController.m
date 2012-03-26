@@ -33,6 +33,10 @@
                         [self getRandomWhiteCard],
                         [self getRandomWhiteCard],
                         [self getRandomWhiteCard],
+                      [self getRandomWhiteCard],
+                      [self getRandomWhiteCard],
+                      [self getRandomWhiteCard],
+                      [self getRandomWhiteCard],
                         [self getRandomWhiteCard]
                       , nil];
         
